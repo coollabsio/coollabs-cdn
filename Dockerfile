@@ -22,6 +22,9 @@ RUN CGO_ENABLED=0 GOOS=$TARGETOS GOARCH=$TARGETARCH go build -a -installsuffix c
 # Final stage
 FROM scratch
 
+# Copy CA certificates for HTTPS requests
+COPY --from=builder /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/
+
 # Copy the binaries from builder stage
 COPY --from=builder /app/coollabs-cdn /coollabs-cdn
 COPY --from=builder /app/healthcheck /healthcheck
