@@ -5,6 +5,7 @@ import (
 	"crypto/md5"
 	"embed"
 	"fmt"
+	"io"
 	"log"
 	"net/http"
 	"os"
@@ -112,6 +113,28 @@ func isImageFile(filename string) bool {
 	return false
 }
 
+// proxyFromCoolifyCDN fetches content from cdn.coolify.io and serves it to the client
+func proxyFromCoolifyCDN(w http.ResponseWriter, r *http.Request, path string) {
+	client := &http.Client{Timeout: 30 * time.Second}
+	resp, err := client.Get("https://cdn.coolify.io" + path)
+	if err != nil {
+		log.Printf("Proxy error for %s: %v", path, err)
+		http.Error(w, "upstream error", http.StatusBadGateway)
+		return
+	}
+	defer resp.Body.Close()
+
+	// Copy relevant headers from upstream
+	for _, header := range []string{"Content-Type", "Content-Length", "ETag", "Last-Modified", "Cache-Control"} {
+		if v := resp.Header.Get(header); v != "" {
+			w.Header().Set(header, v)
+		}
+	}
+
+	w.WriteHeader(resp.StatusCode)
+	io.Copy(w, resp.Body)
+}
+
 // getContentType returns the appropriate Content-Type header for a file path
 func getContentType(path string) string {
 	lowerPath := strings.ToLower(path)
@@ -198,30 +221,62 @@ func handleRequest(w http.ResponseWriter, r *http.Request, baseFQDN string, file
 		return
 	}
 
-	// Backward compatibility: serve files at old /coolify/ paths
+	// Proxy files from cdn.coolify.io
 	switch r.URL.Path {
 	case "/coolify/versions.json":
-		r.URL.Path = "/versions.json"
+		proxyFromCoolifyCDN(w, r, "/versions.json")
+		return
 	case "/coolify/upgrade.sh":
-		r.URL.Path = "/upgrade.sh"
-	}
-
-	// Backward compatibility redirects
-	if r.URL.Path == "/coolify-nightly/releases.json" || r.URL.Path == "/coolify/releases.json" {
-		http.Redirect(w, r, "https://cdn.coolify.io/releases.json", http.StatusMovedPermanently)
+		proxyFromCoolifyCDN(w, r, "/upgrade.sh")
+		return
+	case "/coolify/releases.json":
+		proxyFromCoolifyCDN(w, r, "/releases.json")
+		return
+	case "/coolify-nightly/releases.json":
+		proxyFromCoolifyCDN(w, r, "/nightly/releases.json")
+		return
+	case "/coolify/install.sh":
+		proxyFromCoolifyCDN(w, r, "/install.sh")
+		return
+	case "/coolify/docker-compose.yml":
+		proxyFromCoolifyCDN(w, r, "/docker-compose.yml")
+		return
+	case "/coolify/docker-compose.prod.yml":
+		proxyFromCoolifyCDN(w, r, "/docker-compose.prod.yml")
+		return
+	case "/coolify/.env.production":
+		proxyFromCoolifyCDN(w, r, "/.env.production")
+		return
+	case "/coolify-nightly/docker-compose.yml":
+		proxyFromCoolifyCDN(w, r, "/nightly/docker-compose.yml")
+		return
+	case "/coolify-nightly/docker-compose.prod.yml":
+		proxyFromCoolifyCDN(w, r, "/nightly/docker-compose.prod.yml")
+		return
+	case "/coolify-nightly/.env.production":
+		proxyFromCoolifyCDN(w, r, "/nightly/.env.production")
+		return
+	case "/coolify-nightly/upgrade.sh":
+		proxyFromCoolifyCDN(w, r, "/nightly/upgrade.sh")
+		return
+	case "/coolify-nightly/install.sh":
+		proxyFromCoolifyCDN(w, r, "/nightly/install.sh")
+		return
+	case "/coolify-nightly/versions.json":
+		proxyFromCoolifyCDN(w, r, "/nightly/versions.json")
 		return
 	}
 
-	// Redirect /coolify/install.sh to cdn.coolify.io
-	if r.URL.Path == "/coolify/install.sh" {
-		http.Redirect(w, r, "https://cdn.coolify.io/install.sh", http.StatusMovedPermanently)
+	// Return 404 for favicon.ico
+	if r.URL.Path == "/favicon.ico" {
+		http.NotFound(w, r)
 		return
 	}
 
 	// Check if file exists
 	fileData, exists := files[r.URL.Path]
 	if !exists {
-		// 404 redirect to base FQDN (without path)
+		// 404 redirect to base FQDN
 		http.Redirect(w, r, "https://"+baseFQDN, http.StatusFound)
 		return
 	}
