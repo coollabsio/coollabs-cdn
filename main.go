@@ -206,6 +206,12 @@ func handleRequest(w http.ResponseWriter, r *http.Request, baseFQDN string, file
 		r.URL.Path = "/upgrade.sh"
 	}
 
+	// Backward compatibility redirects
+	if r.URL.Path == "/coolify-nightly/releases.json" || r.URL.Path == "/coolify/releases.json" {
+		http.Redirect(w, r, "https://cdn.coolify.io/releases.json", http.StatusMovedPermanently)
+		return
+	}
+
 	// Redirect /coolify/install.sh to cdn.coolify.io
 	if r.URL.Path == "/coolify/install.sh" {
 		http.Redirect(w, r, "https://cdn.coolify.io/install.sh", http.StatusMovedPermanently)
