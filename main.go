@@ -265,6 +265,9 @@ func handleRequest(w http.ResponseWriter, r *http.Request, baseFQDN string, file
 	case "/coolify-nightly/versions.json":
 		proxyFromCoolifyCDN(w, r, "/nightly/versions.json")
 		return
+	case "/assets/coolify/og-image.png":
+		proxyFromCoolifyCDN(w, r, "/og-image.png")
+		return
 	}
 
 	// Return 404 for favicon.ico
