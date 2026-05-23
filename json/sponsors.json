@@ -4,7 +4,7 @@
   "sources": {
     "repository": "coollabsio/coollabs-cdn",
     "landing": "coollabsio/coolify.io",
-    "imagesBaseUrl": "https://coolify.io/images/"
+    "imagesBaseUrl": "https://cdn.coollabs.io/sponsors/"
   },
   "tiers": {
     "huge": [
@@ -14,8 +14,8 @@
         "description": "Google Search API — Scrape Google and other search engines from our fast, easy, and complete API.",
         "imageKey": "serpapi.png",
         "hugeImageStyle": "width: auto; height: 80px; max-width: 100%;",
-        "imagePath": "/images/serpapi.png",
-        "imageUrl": "https://coolify.io/images/serpapi.png",
+        "imagePath": "/sponsors/serpapi.png",
+        "imageUrl": "https://cdn.coollabs.io/sponsors/serpapi.png",
         "tier": "huge",
         "offPlatform": {
           "aliases": [
@@ -31,8 +31,8 @@
         "imageKey": "mvps.png",
         "hugeImageStyle": "width: min(95%, 360px); height: auto; max-height: none;",
         "hugeCardStyle": "padding-inline: 1rem;",
-        "imagePath": "/images/mvps.png",
-        "imageUrl": "https://coolify.io/images/mvps.png",
+        "imagePath": "/sponsors/mvps.png",
+        "imageUrl": "https://cdn.coollabs.io/sponsors/mvps.png",
         "tier": "huge"
       },
       {
@@ -41,8 +41,8 @@
         "description": "Screenshot API for devs",
         "imageKey": "screenshotone.svg",
         "hugeImageStyle": "width: 100%; height: auto; max-height: none; transform: scale(1.2);",
-        "imagePath": "/images/screenshotone.svg",
-        "imageUrl": "https://coolify.io/images/screenshotone.svg",
+        "imagePath": "/sponsors/screenshotone.svg",
+        "imageUrl": "https://cdn.coollabs.io/sponsors/screenshotone.svg",
         "tier": "huge"
       },
       {
@@ -51,8 +51,8 @@
         "description": "Cloud Services Provider, VPS, servers infrastructure for people who care about privacy and control",
         "imageKey": "privatealps.png",
         "hugeImageStyle": "width: min(95%, 360px); height: auto; max-height: none;",
-        "imagePath": "/images/privatealps.png",
-        "imageUrl": "https://coolify.io/images/privatealps.png",
+        "imagePath": "/sponsors/privatealps.png",
+        "imageUrl": "https://cdn.coollabs.io/sponsors/privatealps.png",
         "tier": "huge"
       },
       {
@@ -61,8 +61,8 @@
         "description": "Boost productivity company-wide with AI agents like Claude Code",
         "imageKey": "seibert.png",
         "hugeImageStyle": "width: min(80%, 280px); height: auto; max-height: 140px;",
-        "imagePath": "/images/seibert.png",
-        "imageUrl": "https://coolify.io/images/seibert.png",
+        "imagePath": "/sponsors/seibert.png",
+        "imageUrl": "https://cdn.coollabs.io/sponsors/seibert.png",
         "tier": "huge"
       }
     ],
@@ -73,8 +73,8 @@
         "description": "Managed cloud hosting platform by DigitalOcean",
         "imageKey": "cloudways.svg",
         "pinned": true,
-        "imagePath": "/images/cloudways.svg",
-        "imageUrl": "https://coolify.io/images/cloudways.svg",
+        "imagePath": "/sponsors/cloudways.svg",
+        "imageUrl": "https://cdn.coollabs.io/sponsors/cloudways.svg",
         "tier": "big",
         "offPlatform": {
           "aliases": [
@@ -87,8 +87,8 @@
         "url": "https://www.bytebase.com",
         "description": "Database CI/CD and Security at Scale",
         "imageKey": "bytebase-white.svg",
-        "imagePath": "/images/bytebase-white.svg",
-        "imageUrl": "https://coolify.io/images/bytebase-white.svg",
+        "imagePath": "/sponsors/bytebase-white.svg",
+        "imageUrl": "https://cdn.coollabs.io/sponsors/bytebase-white.svg",
         "tier": "big"
       },
       {
@@ -96,8 +96,8 @@
         "url": "https://ramnode.com/",
         "description": "High Performance Cloud VPS Hosting",
         "imageKey": "ramnode.png",
-        "imagePath": "/images/ramnode.png",
-        "imageUrl": "https://coolify.io/images/ramnode.png",
+        "imagePath": "/sponsors/ramnode.png",
+        "imageUrl": "https://cdn.coollabs.io/sponsors/ramnode.png",
         "tier": "big"
       },
       {
@@ -105,8 +105,8 @@
         "url": "https://23m.com",
         "description": "Your experts for high-availability hosting solutions!",
         "imageKey": "23mlogo.svg",
-        "imagePath": "/images/23mlogo.svg",
-        "imageUrl": "https://coolify.io/images/23mlogo.svg",
+        "imagePath": "/sponsors/23mlogo.svg",
+        "imageUrl": "https://cdn.coollabs.io/sponsors/23mlogo.svg",
         "tier": "big"
       },
       {
@@ -114,8 +114,8 @@
         "url": "https://macarne.com",
         "description": "Best IP Transit & Carrier Ethernet Solutions for Simplified Network Connectivity",
         "imageKey": "macarne.svg",
-        "imagePath": "/images/macarne.svg",
-        "imageUrl": "https://coolify.io/images/macarne.svg",
+        "imagePath": "/sponsors/macarne.svg",
+        "imageUrl": "https://cdn.coollabs.io/sponsors/macarne.svg",
         "tier": "big"
       },
       {
@@ -125,8 +125,8 @@
         "imageKey": "hetzner.jpg",
         "imageStyle": "width: auto; height: 60px; max-height: none;",
         "pinned": true,
-        "imagePath": "/images/hetzner.jpg",
-        "imageUrl": "https://coolify.io/images/hetzner.jpg",
+        "imagePath": "/sponsors/hetzner.jpg",
+        "imageUrl": "https://cdn.coollabs.io/sponsors/hetzner.jpg",
         "tier": "big",
         "offPlatform": {
           "aliases": [
@@ -139,8 +139,8 @@
         "url": "https://logto.io",
         "description": "The better identity infrastructure for developers",
         "imageKey": "logto.webp",
-        "imagePath": "/images/logto.webp",
-        "imageUrl": "https://coolify.io/images/logto.webp",
+        "imagePath": "/sponsors/logto.webp",
+        "imageUrl": "https://cdn.coollabs.io/sponsors/logto.webp",
         "tier": "big"
       },
       {
@@ -148,8 +148,8 @@
         "url": "https://supadata.ai/",
         "description": "Scrape YouTube, web, and files. Get AI-ready, clean data for your next project. ",
         "imageKey": "supadata.svg",
-        "imagePath": "/images/supadata.svg",
-        "imageUrl": "https://coolify.io/images/supadata.svg",
+        "imagePath": "/sponsors/supadata.svg",
+        "imageUrl": "https://cdn.coollabs.io/sponsors/supadata.svg",
         "tier": "big"
       },
       {
@@ -158,8 +158,8 @@
         "description": "The open source localization platform",
         "imageKey": "tolgee.svg",
         "additionalContent": "Tolgee",
-        "imagePath": "/images/tolgee.svg",
-        "imageUrl": "https://coolify.io/images/tolgee.svg",
+        "imagePath": "/sponsors/tolgee.svg",
+        "imageUrl": "https://cdn.coollabs.io/sponsors/tolgee.svg",
         "tier": "big"
       },
       {
@@ -167,8 +167,8 @@
         "url": "https://bc.direct",
         "description": "Your trusted technology consulting partner",
         "imageKey": "bc.png",
-        "imagePath": "/images/bc.png",
-        "imageUrl": "https://coolify.io/images/bc.png",
+        "imagePath": "/sponsors/bc.png",
+        "imageUrl": "https://cdn.coollabs.io/sponsors/bc.png",
         "tier": "big"
       },
       {
@@ -176,8 +176,8 @@
         "url": "https://arcjet.com",
         "description": "Advanced web security and performance solutions",
         "imageKey": "arcjet.svg",
-        "imagePath": "/images/arcjet.svg",
-        "imageUrl": "https://coolify.io/images/arcjet.svg",
+        "imagePath": "/sponsors/arcjet.svg",
+        "imageUrl": "https://cdn.coollabs.io/sponsors/arcjet.svg",
         "tier": "big"
       },
       {
@@ -185,8 +185,8 @@
         "url": "https://supa.guide",
         "description": "Your comprehensive guide to Supabase",
         "imageKey": "supaguide.png",
-        "imagePath": "/images/supaguide.png",
-        "imageUrl": "https://coolify.io/images/supaguide.png",
+        "imagePath": "/sponsors/supaguide.png",
+        "imageUrl": "https://cdn.coollabs.io/sponsors/supaguide.png",
         "tier": "big"
       },
       {
@@ -195,8 +195,8 @@
         "description": "Cut Code Review Time & Bugs in Half",
         "imageKey": "coderabbit.svg",
         "pinned": true,
-        "imagePath": "/images/coderabbit.svg",
-        "imageUrl": "https://coolify.io/images/coderabbit.svg",
+        "imagePath": "/sponsors/coderabbit.svg",
+        "imageUrl": "https://cdn.coollabs.io/sponsors/coderabbit.svg",
         "tier": "big"
       },
       {
@@ -205,8 +205,8 @@
         "description": "Convex is the open-source reactive database for web app developers.",
         "imageKey": "convex.svg",
         "imageStyle": "width: auto; height: 60px; max-height: none;",
-        "imagePath": "/images/convex.svg",
-        "imageUrl": "https://coolify.io/images/convex.svg",
+        "imagePath": "/sponsors/convex.svg",
+        "imageUrl": "https://cdn.coollabs.io/sponsors/convex.svg",
         "tier": "big"
       },
       {
@@ -214,8 +214,8 @@
         "url": "https://billing.goldenvm.com",
         "description": "Premium virtual machine hosting solutions",
         "imageKey": "goldenvm.png",
-        "imagePath": "/images/goldenvm.png",
-        "imageUrl": "https://coolify.io/images/goldenvm.png",
+        "imagePath": "/sponsors/goldenvm.png",
+        "imageUrl": "https://cdn.coollabs.io/sponsors/goldenvm.png",
         "tier": "big"
       },
       {
@@ -223,8 +223,8 @@
         "url": "https://comit.international",
         "description": "New York Times award–winning contractor!",
         "imageKey": "comit.svg",
-        "imagePath": "/images/comit.svg",
-        "imageUrl": "https://coolify.io/images/comit.svg",
+        "imagePath": "/sponsors/comit.svg",
+        "imageUrl": "https://cdn.coollabs.io/sponsors/comit.svg",
         "tier": "big"
       },
       {
@@ -232,8 +232,8 @@
         "url": "https://www.trycomp.ai",
         "description": "The open source compliance automation platform that does everything you need to get compliant, fast. Open source alternative to Drata & Vanta.",
         "imageKey": "compai.svg",
-        "imagePath": "/images/compai.svg",
-        "imageUrl": "https://coolify.io/images/compai.svg",
+        "imagePath": "/sponsors/compai.svg",
+        "imageUrl": "https://cdn.coollabs.io/sponsors/compai.svg",
         "tier": "big"
       },
       {
@@ -241,8 +241,8 @@
         "url": "https://www.tigrisdata.com",
         "description": "Modern S3 Alternative",
         "imageKey": "tigris.svg",
-        "imagePath": "/images/tigris.svg",
-        "imageUrl": "https://coolify.io/images/tigris.svg",
+        "imagePath": "/sponsors/tigris.svg",
+        "imageUrl": "https://cdn.coollabs.io/sponsors/tigris.svg",
         "tier": "big"
       },
       {
@@ -251,8 +251,8 @@
         "description": "Infrastructure automation platform",
         "imageKey": "blacksmith.svg",
         "imageStyle": "width: auto; height: 40px; max-height: none;",
-        "imagePath": "/images/blacksmith.svg",
-        "imageUrl": "https://coolify.io/images/blacksmith.svg",
+        "imagePath": "/sponsors/blacksmith.svg",
+        "imageUrl": "https://cdn.coollabs.io/sponsors/blacksmith.svg",
         "tier": "big"
       },
       {
@@ -261,8 +261,8 @@
         "description": "Fast & Reliable Screenshot API for Developers",
         "imageKey": "capture-page.png",
         "imageStyle": "width: auto; height: 50px; max-height: none;",
-        "imagePath": "/images/capture-page.png",
-        "imageUrl": "https://coolify.io/images/capture-page.png",
+        "imagePath": "/sponsors/capture-page.png",
+        "imageUrl": "https://cdn.coollabs.io/sponsors/capture-page.png",
         "tier": "big"
       },
       {
@@ -271,8 +271,8 @@
         "description": "30,000+ remote jobs for developers",
         "imageKey": "jobscollider.svg",
         "imageStyle": "width: auto; height: 42px; max-height: none;",
-        "imagePath": "/images/jobscollider.svg",
-        "imageUrl": "https://coolify.io/images/jobscollider.svg",
+        "imagePath": "/sponsors/jobscollider.svg",
+        "imageUrl": "https://cdn.coollabs.io/sponsors/jobscollider.svg",
         "tier": "big"
       },
       {
@@ -280,8 +280,8 @@
         "url": "https://darweb.nl/?ref=coolify.io&utm_source=coolify.io",
         "description": "Design. Develop. Deliver. Specialized in 3D CPQ Solutions for eCommerce.",
         "imageKey": "darweb.svg",
-        "imagePath": "/images/darweb.svg",
-        "imageUrl": "https://coolify.io/images/darweb.svg",
+        "imagePath": "/sponsors/darweb.svg",
+        "imageUrl": "https://cdn.coollabs.io/sponsors/darweb.svg",
         "tier": "big"
       },
       {
@@ -290,8 +290,8 @@
         "description": "Web hosting and VPS solutions",
         "imageKey": "hostinger.svg",
         "imageStyle": "width: auto; height: 40px; max-height: none;",
-        "imagePath": "/images/hostinger.svg",
-        "imageUrl": "https://coolify.io/images/hostinger.svg",
+        "imagePath": "/sponsors/hostinger.svg",
+        "imageUrl": "https://cdn.coollabs.io/sponsors/hostinger.svg",
         "tier": "big"
       },
       {
@@ -299,8 +299,8 @@
         "url": "https://vibe.mobb.ai/",
         "description": "Secure Your AI-Generated Code to Unlock Dev Productivity",
         "imageKey": "mobb.svg",
-        "imagePath": "/images/mobb.svg",
-        "imageUrl": "https://coolify.io/images/mobb.svg",
+        "imagePath": "/sponsors/mobb.svg",
+        "imageUrl": "https://cdn.coollabs.io/sponsors/mobb.svg",
         "tier": "big"
       },
       {
@@ -308,8 +308,8 @@
         "url": "https://www.ubicloud.com",
         "description": "Open source cloud infrastructure platform",
         "imageKey": "ubicloud.svg",
-        "imagePath": "/images/ubicloud.svg",
-        "imageUrl": "https://coolify.io/images/ubicloud.svg",
+        "imagePath": "/sponsors/ubicloud.svg",
+        "imageUrl": "https://cdn.coollabs.io/sponsors/ubicloud.svg",
         "tier": "big"
       },
       {
@@ -319,8 +319,8 @@
         "imageKey": "pfglabs.svg",
         "imageStyle": "width: auto; height: 40px; max-height: none;",
         "additionalContent": "PFGLabs",
-        "imagePath": "/images/pfglabs.svg",
-        "imageUrl": "https://coolify.io/images/pfglabs.svg",
+        "imagePath": "/sponsors/pfglabs.svg",
+        "imageUrl": "https://cdn.coollabs.io/sponsors/pfglabs.svg",
         "tier": "big"
       },
       {
@@ -328,8 +328,8 @@
         "url": "https://juxtdigital.com",
         "description": "Digital PR & AI Authority Building Agency",
         "imageKey": "juxtdigital.png",
-        "imagePath": "/images/juxtdigital.png",
-        "imageUrl": "https://coolify.io/images/juxtdigital.png",
+        "imagePath": "/sponsors/juxtdigital.png",
+        "imageUrl": "https://cdn.coollabs.io/sponsors/juxtdigital.png",
         "tier": "big"
       },
       {
@@ -338,8 +338,8 @@
         "description": "Complete SaaS starter kit for developers",
         "imageKey": "sassykit.jpeg",
         "imageStyle": "width: auto; height: 60px; max-height: none;",
-        "imagePath": "/images/sassykit.jpeg",
-        "imageUrl": "https://coolify.io/images/sassykit.jpeg",
+        "imagePath": "/sponsors/sassykit.jpeg",
+        "imageUrl": "https://cdn.coollabs.io/sponsors/sassykit.jpeg",
         "tier": "big"
       },
       {
@@ -348,8 +348,8 @@
         "description": "US-based cloud infrastructure services",
         "imageKey": "americancloud.svg",
         "imageStyle": "width: auto; height: 60px; max-height: none;",
-        "imagePath": "/images/americancloud.svg",
-        "imageUrl": "https://coolify.io/images/americancloud.svg",
+        "imagePath": "/sponsors/americancloud.svg",
+        "imageUrl": "https://cdn.coollabs.io/sponsors/americancloud.svg",
         "tier": "big"
       },
       {
@@ -357,8 +357,8 @@
         "url": "https://liquidweb.com",
         "description": "Premium managed hosting solutions",
         "imageKey": "liquid.svg",
-        "imagePath": "/images/liquid.svg",
-        "imageUrl": "https://coolify.io/images/liquid.svg",
+        "imagePath": "/sponsors/liquid.svg",
+        "imageUrl": "https://cdn.coollabs.io/sponsors/liquid.svg",
         "tier": "big"
       },
       {
@@ -366,8 +366,8 @@
         "url": "https://www.greptile.com",
         "description": "The AI Code Reviewer",
         "imageKey": "greptile.svg",
-        "imagePath": "/images/greptile.svg",
-        "imageUrl": "https://coolify.io/images/greptile.svg",
+        "imagePath": "/sponsors/greptile.svg",
+        "imageUrl": "https://cdn.coollabs.io/sponsors/greptile.svg",
         "tier": "big"
       },
       {
@@ -375,8 +375,8 @@
         "url": "https://vpsdime.com/",
         "description": "Cheap VPS Hosting - 4GB for $5/month",
         "imageKey": "vpsdime-logo.svg",
-        "imagePath": "/images/vpsdime-logo.svg",
-        "imageUrl": "https://coolify.io/images/vpsdime-logo.svg",
+        "imagePath": "/sponsors/vpsdime-logo.svg",
+        "imageUrl": "https://cdn.coollabs.io/sponsors/vpsdime-logo.svg",
         "tier": "big"
       },
       {
@@ -384,8 +384,8 @@
         "url": "https://cloud.dataforest.net/en",
         "description": "Deploy cloud servers as seeds independently in seconds. Enterprise hardware, premium network, 100% made in Germany.",
         "imageKey": "dataforest.svg",
-        "imagePath": "/images/dataforest.svg",
-        "imageUrl": "https://coolify.io/images/dataforest.svg",
+        "imagePath": "/sponsors/dataforest.svg",
+        "imageUrl": "https://cdn.coollabs.io/sponsors/dataforest.svg",
         "tier": "big"
       },
       {
@@ -394,8 +394,8 @@
         "description": "Hosting and VPS solutions",
         "imageKey": "ishosting.svg",
         "imageStyle": "width: auto; height: 60px; max-height: none;",
-        "imagePath": "/images/ishosting.svg",
-        "imageUrl": "https://coolify.io/images/ishosting.svg",
+        "imagePath": "/sponsors/ishosting.svg",
+        "imageUrl": "https://cdn.coollabs.io/sponsors/ishosting.svg",
         "tier": "big"
       },
       {
@@ -403,8 +403,8 @@
         "url": "https://petrosky.io",
         "description": "Open source cloud deployment solutions",
         "imageKey": "petrosky.svg",
-        "imagePath": "/images/petrosky.svg",
-        "imageUrl": "https://coolify.io/images/petrosky.svg",
+        "imagePath": "/sponsors/petrosky.svg",
+        "imageUrl": "https://cdn.coollabs.io/sponsors/petrosky.svg",
         "tier": "big"
       },
       {
@@ -413,8 +413,8 @@
         "description": "Fast and reliable virtual server hosting",
         "imageKey": "lumadock.png",
         "imageStyle": "width: auto; height: 36px; max-height: none;",
-        "imagePath": "/images/lumadock.png",
-        "imageUrl": "https://coolify.io/images/lumadock.png",
+        "imagePath": "/sponsors/lumadock.png",
+        "imageUrl": "https://cdn.coollabs.io/sponsors/lumadock.png",
         "tier": "big"
       }
     ]
