@@ -84,24 +84,6 @@
     ],
     "big": [
       {
-        "name": "Cloudways",
-        "url": "https://www.cloudways.com/en/?id=2125302",
-        "description": "Managed cloud hosting platform by DigitalOcean",
-        "imageKey": "cloudways.svg",
-        "pinned": true,
-        "imagePath": "/sponsors/cloudways.svg",
-        "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/cloudways.svg",
-        "tier": "big",
-        "offPlatform": {
-          "aliases": [
-            "cloudways"
-          ]
-        },
-        "docsImageKey": "cloudways.webp",
-        "docsImagePath": "/docs-sponsors/cloudways.webp",
-        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/8ca4ab734a84d9f8402bc13352f7295833c075d2/images/docs-sponsors/cloudways.webp"
-      },
-      {
         "name": "ByteBase",
         "url": "https://www.bytebase.com",
         "description": "Database CI/CD and Security at Scale",
