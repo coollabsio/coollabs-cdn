@@ -4,7 +4,8 @@
   "sources": {
     "repository": "coollabsio/coollabs-cdn",
     "landing": "coollabsio/coolify.io",
-    "imagesBaseUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/"
+    "imagesBaseUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/",
+    "docsImagesBaseUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/"
   },
   "tiers": {
     "huge": [
@@ -22,7 +23,10 @@
             "serpapi"
           ],
           "until": "2027-02-01"
-        }
+        },
+        "docsImageKey": "serpapi.png",
+        "docsImagePath": "/docs-sponsors/serpapi.png",
+        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/serpapi.png"
       },
       {
         "name": "MVPS",
@@ -33,7 +37,10 @@
         "hugeCardStyle": "padding-inline: 1rem;",
         "imagePath": "/sponsors/mvps.png",
         "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/mvps.png",
-        "tier": "huge"
+        "tier": "huge",
+        "docsImageKey": "mvps.png",
+        "docsImagePath": "/docs-sponsors/mvps.png",
+        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/mvps.png"
       },
       {
         "name": "ScreenshotOne",
@@ -43,7 +50,10 @@
         "hugeImageStyle": "width: 100%; height: auto; max-height: none; transform: scale(1.2);",
         "imagePath": "/sponsors/screenshotone.svg",
         "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/screenshotone.svg",
-        "tier": "huge"
+        "tier": "huge",
+        "docsImageKey": "screenshotone.svg",
+        "docsImagePath": "/docs-sponsors/screenshotone.svg",
+        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/screenshotone.svg"
       },
       {
         "name": "PrivateAlps",
@@ -53,7 +63,10 @@
         "hugeImageStyle": "width: min(95%, 360px); height: auto; max-height: none;",
         "imagePath": "/sponsors/privatealps.png",
         "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/privatealps.png",
-        "tier": "huge"
+        "tier": "huge",
+        "docsImageKey": "privatealps.png",
+        "docsImagePath": "/docs-sponsors/privatealps.png",
+        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/privatealps.png"
       },
       {
         "name": "Seibert Group",
@@ -63,7 +76,10 @@
         "hugeImageStyle": "width: min(80%, 280px); height: auto; max-height: 140px;",
         "imagePath": "/sponsors/seibert.png",
         "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/seibert.png",
-        "tier": "huge"
+        "tier": "huge",
+        "docsImageKey": "seibert.png",
+        "docsImagePath": "/docs-sponsors/seibert.png",
+        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/seibert.png"
       }
     ],
     "big": [
@@ -80,7 +96,10 @@
           "aliases": [
             "cloudways"
           ]
-        }
+        },
+        "docsImageKey": "cloudways.webp",
+        "docsImagePath": "/docs-sponsors/cloudways.webp",
+        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/cloudways.webp"
       },
       {
         "name": "ByteBase",
@@ -89,7 +108,10 @@
         "imageKey": "bytebase-white.svg",
         "imagePath": "/sponsors/bytebase-white.svg",
         "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/bytebase-white.svg",
-        "tier": "big"
+        "tier": "big",
+        "docsImageKey": "bytebase.png",
+        "docsImagePath": "/docs-sponsors/bytebase.png",
+        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/bytebase.png"
       },
       {
         "name": "Ramnode",
@@ -98,7 +120,10 @@
         "imageKey": "ramnode.png",
         "imagePath": "/sponsors/ramnode.png",
         "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/ramnode.png",
-        "tier": "big"
+        "tier": "big",
+        "docsImageKey": "ramnode.png",
+        "docsImagePath": "/docs-sponsors/ramnode.png",
+        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/ramnode.png"
       },
       {
         "name": "23M",
@@ -107,7 +132,10 @@
         "imageKey": "23mlogo.svg",
         "imagePath": "/sponsors/23mlogo.svg",
         "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/23mlogo.svg",
-        "tier": "big"
+        "tier": "big",
+        "docsImageKey": "23m.svg",
+        "docsImagePath": "/docs-sponsors/23m.svg",
+        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/23m.svg"
       },
       {
         "name": "Macarne",
@@ -116,7 +144,10 @@
         "imageKey": "macarne.svg",
         "imagePath": "/sponsors/macarne.svg",
         "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/macarne.svg",
-        "tier": "big"
+        "tier": "big",
+        "docsImageKey": "macarne.webp",
+        "docsImagePath": "/docs-sponsors/macarne.webp",
+        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/macarne.webp"
       },
       {
         "name": "Hetzner",
@@ -132,7 +163,10 @@
           "aliases": [
             "hetzner"
           ]
-        }
+        },
+        "docsImageKey": "hetzner.webp",
+        "docsImagePath": "/docs-sponsors/hetzner.webp",
+        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/hetzner.webp"
       },
       {
         "name": "Logto",
@@ -141,7 +175,10 @@
         "imageKey": "logto.webp",
         "imagePath": "/sponsors/logto.webp",
         "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/logto.webp",
-        "tier": "big"
+        "tier": "big",
+        "docsImageKey": "logto.webp",
+        "docsImagePath": "/docs-sponsors/logto.webp",
+        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/logto.webp"
       },
       {
         "name": "Supadata",
@@ -150,7 +187,10 @@
         "imageKey": "supadata.svg",
         "imagePath": "/sponsors/supadata.svg",
         "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/supadata.svg",
-        "tier": "big"
+        "tier": "big",
+        "docsImageKey": "supadata.webp",
+        "docsImagePath": "/docs-sponsors/supadata.webp",
+        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/supadata.webp"
       },
       {
         "name": "Tolgee",
@@ -160,7 +200,10 @@
         "additionalContent": "Tolgee",
         "imagePath": "/sponsors/tolgee.svg",
         "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/tolgee.svg",
-        "tier": "big"
+        "tier": "big",
+        "docsImageKey": "tolgee.webp",
+        "docsImagePath": "/docs-sponsors/tolgee.webp",
+        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/tolgee.webp"
       },
       {
         "name": "Best Consultant",
@@ -169,7 +212,10 @@
         "imageKey": "bc.png",
         "imagePath": "/sponsors/bc.png",
         "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/bc.png",
-        "tier": "big"
+        "tier": "big",
+        "docsImageKey": "bc.webp",
+        "docsImagePath": "/docs-sponsors/bc.webp",
+        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/bc.webp"
       },
       {
         "name": "ArcJet",
@@ -178,7 +224,10 @@
         "imageKey": "arcjet.svg",
         "imagePath": "/sponsors/arcjet.svg",
         "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/arcjet.svg",
-        "tier": "big"
+        "tier": "big",
+        "docsImageKey": "arcjet.webp",
+        "docsImagePath": "/docs-sponsors/arcjet.webp",
+        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/arcjet.webp"
       },
       {
         "name": "SupaGuide",
@@ -187,7 +236,10 @@
         "imageKey": "supaguide.png",
         "imagePath": "/sponsors/supaguide.png",
         "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/supaguide.png",
-        "tier": "big"
+        "tier": "big",
+        "docsImageKey": "supaguide.webp",
+        "docsImagePath": "/docs-sponsors/supaguide.webp",
+        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/supaguide.webp"
       },
       {
         "name": "CodeRabbit",
@@ -197,7 +249,10 @@
         "pinned": true,
         "imagePath": "/sponsors/coderabbit.svg",
         "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/coderabbit.svg",
-        "tier": "big"
+        "tier": "big",
+        "docsImageKey": "coderabbit.webp",
+        "docsImagePath": "/docs-sponsors/coderabbit.webp",
+        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/coderabbit.webp"
       },
       {
         "name": "Convex",
@@ -207,7 +262,10 @@
         "imageStyle": "width: auto; height: 60px; max-height: none;",
         "imagePath": "/sponsors/convex.svg",
         "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/convex.svg",
-        "tier": "big"
+        "tier": "big",
+        "docsImageKey": "convex.webp",
+        "docsImagePath": "/docs-sponsors/convex.webp",
+        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/convex.webp"
       },
       {
         "name": "GoldenVM",
@@ -216,7 +274,10 @@
         "imageKey": "goldenvm.png",
         "imagePath": "/sponsors/goldenvm.png",
         "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/goldenvm.png",
-        "tier": "big"
+        "tier": "big",
+        "docsImageKey": "goldenvm.webp",
+        "docsImagePath": "/docs-sponsors/goldenvm.webp",
+        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/goldenvm.webp"
       },
       {
         "name": "Comit International",
@@ -225,7 +286,10 @@
         "imageKey": "comit.svg",
         "imagePath": "/sponsors/comit.svg",
         "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/comit.svg",
-        "tier": "big"
+        "tier": "big",
+        "docsImageKey": "comit.webp",
+        "docsImagePath": "/docs-sponsors/comit.webp",
+        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/comit.webp"
       },
       {
         "name": "Compai",
@@ -234,7 +298,10 @@
         "imageKey": "compai.svg",
         "imagePath": "/sponsors/compai.svg",
         "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/compai.svg",
-        "tier": "big"
+        "tier": "big",
+        "docsImageKey": "comp.webp",
+        "docsImagePath": "/docs-sponsors/comp.webp",
+        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/comp.webp"
       },
       {
         "name": "Tigris",
@@ -243,7 +310,10 @@
         "imageKey": "tigris.svg",
         "imagePath": "/sponsors/tigris.svg",
         "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/tigris.svg",
-        "tier": "big"
+        "tier": "big",
+        "docsImageKey": "tigris.webp",
+        "docsImagePath": "/docs-sponsors/tigris.webp",
+        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/tigris.webp"
       },
       {
         "name": "Blacksmith",
@@ -253,7 +323,10 @@
         "imageStyle": "width: auto; height: 40px; max-height: none;",
         "imagePath": "/sponsors/blacksmith.svg",
         "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/blacksmith.svg",
-        "tier": "big"
+        "tier": "big",
+        "docsImageKey": "blacksmith.webp",
+        "docsImagePath": "/docs-sponsors/blacksmith.webp",
+        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/blacksmith.webp"
       },
       {
         "name": "Capture.page",
@@ -263,7 +336,10 @@
         "imageStyle": "width: auto; height: 50px; max-height: none;",
         "imagePath": "/sponsors/capture-page.png",
         "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/capture-page.png",
-        "tier": "big"
+        "tier": "big",
+        "docsImageKey": "capture-page.webp",
+        "docsImagePath": "/docs-sponsors/capture-page.webp",
+        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/capture-page.webp"
       },
       {
         "name": "JobsCollider",
@@ -273,7 +349,10 @@
         "imageStyle": "width: auto; height: 42px; max-height: none;",
         "imagePath": "/sponsors/jobscollider.svg",
         "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/jobscollider.svg",
-        "tier": "big"
+        "tier": "big",
+        "docsImageKey": "jobscollider.webp",
+        "docsImagePath": "/docs-sponsors/jobscollider.webp",
+        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/jobscollider.webp"
       },
       {
         "name": "Darweb",
@@ -282,7 +361,10 @@
         "imageKey": "darweb.svg",
         "imagePath": "/sponsors/darweb.svg",
         "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/darweb.svg",
-        "tier": "big"
+        "tier": "big",
+        "docsImageKey": "darweb.webp",
+        "docsImagePath": "/docs-sponsors/darweb.webp",
+        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/darweb.webp"
       },
       {
         "name": "Hostinger",
@@ -292,7 +374,10 @@
         "imageStyle": "width: auto; height: 40px; max-height: none;",
         "imagePath": "/sponsors/hostinger.svg",
         "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/hostinger.svg",
-        "tier": "big"
+        "tier": "big",
+        "docsImageKey": "hostinger.webp",
+        "docsImagePath": "/docs-sponsors/hostinger.webp",
+        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/hostinger.webp"
       },
       {
         "name": "Mobb",
@@ -301,7 +386,10 @@
         "imageKey": "mobb.svg",
         "imagePath": "/sponsors/mobb.svg",
         "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/mobb.svg",
-        "tier": "big"
+        "tier": "big",
+        "docsImageKey": "mobb.svg",
+        "docsImagePath": "/docs-sponsors/mobb.svg",
+        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/mobb.svg"
       },
       {
         "name": "Ubicloud",
@@ -310,7 +398,10 @@
         "imageKey": "ubicloud.svg",
         "imagePath": "/sponsors/ubicloud.svg",
         "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/ubicloud.svg",
-        "tier": "big"
+        "tier": "big",
+        "docsImageKey": "ubicloud.webp",
+        "docsImagePath": "/docs-sponsors/ubicloud.webp",
+        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/ubicloud.webp"
       },
       {
         "name": "PFGLabs",
@@ -321,7 +412,10 @@
         "additionalContent": "PFGLabs",
         "imagePath": "/sponsors/pfglabs.svg",
         "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/pfglabs.svg",
-        "tier": "big"
+        "tier": "big",
+        "docsImageKey": "pfglabs.webp",
+        "docsImagePath": "/docs-sponsors/pfglabs.webp",
+        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/pfglabs.webp"
       },
       {
         "name": "JuxtDigital",
@@ -330,7 +424,10 @@
         "imageKey": "juxtdigital.png",
         "imagePath": "/sponsors/juxtdigital.png",
         "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/juxtdigital.png",
-        "tier": "big"
+        "tier": "big",
+        "docsImageKey": "juxtdigital.webp",
+        "docsImagePath": "/docs-sponsors/juxtdigital.webp",
+        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/juxtdigital.webp"
       },
       {
         "name": "SaasyKit",
@@ -340,7 +437,10 @@
         "imageStyle": "width: auto; height: 60px; max-height: none;",
         "imagePath": "/sponsors/sassykit.jpeg",
         "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/sassykit.jpeg",
-        "tier": "big"
+        "tier": "big",
+        "docsImageKey": "saasykit.webp",
+        "docsImagePath": "/docs-sponsors/saasykit.webp",
+        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/saasykit.webp"
       },
       {
         "name": "American Cloud",
@@ -350,7 +450,10 @@
         "imageStyle": "width: auto; height: 60px; max-height: none;",
         "imagePath": "/sponsors/americancloud.svg",
         "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/americancloud.svg",
-        "tier": "big"
+        "tier": "big",
+        "docsImageKey": "americancloud.webp",
+        "docsImagePath": "/docs-sponsors/americancloud.webp",
+        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/americancloud.webp"
       },
       {
         "name": "LiquidWeb",
@@ -359,7 +462,10 @@
         "imageKey": "liquid.svg",
         "imagePath": "/sponsors/liquid.svg",
         "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/liquid.svg",
-        "tier": "big"
+        "tier": "big",
+        "docsImageKey": "liquidweb.webp",
+        "docsImagePath": "/docs-sponsors/liquidweb.webp",
+        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/liquidweb.webp"
       },
       {
         "name": "Greptile",
@@ -368,7 +474,10 @@
         "imageKey": "greptile.svg",
         "imagePath": "/sponsors/greptile.svg",
         "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/greptile.svg",
-        "tier": "big"
+        "tier": "big",
+        "docsImageKey": "greptile.svg",
+        "docsImagePath": "/docs-sponsors/greptile.svg",
+        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/greptile.svg"
       },
       {
         "name": "VPSDime",
@@ -377,7 +486,10 @@
         "imageKey": "vpsdime-logo.svg",
         "imagePath": "/sponsors/vpsdime-logo.svg",
         "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/vpsdime-logo.svg",
-        "tier": "big"
+        "tier": "big",
+        "docsImageKey": "vpsdime.svg",
+        "docsImagePath": "/docs-sponsors/vpsdime.svg",
+        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/vpsdime.svg"
       },
       {
         "name": "dataforest Cloud",
@@ -386,7 +498,10 @@
         "imageKey": "dataforest.svg",
         "imagePath": "/sponsors/dataforest.svg",
         "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/dataforest.svg",
-        "tier": "big"
+        "tier": "big",
+        "docsImageKey": "dataforest.svg",
+        "docsImagePath": "/docs-sponsors/dataforest.svg",
+        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/dataforest.svg"
       },
       {
         "name": "ISHosting",
@@ -405,7 +520,10 @@
         "imageKey": "petrosky.svg",
         "imagePath": "/sponsors/petrosky.svg",
         "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/petrosky.svg",
-        "tier": "big"
+        "tier": "big",
+        "docsImageKey": "petrosky.png",
+        "docsImagePath": "/docs-sponsors/petrosky.png",
+        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/petrosky.png"
       },
       {
         "name": "LumaDock",
@@ -415,7 +533,10 @@
         "imageStyle": "width: auto; height: 36px; max-height: none;",
         "imagePath": "/sponsors/lumadock.png",
         "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/lumadock.png",
-        "tier": "big"
+        "tier": "big",
+        "docsImageKey": "lumadock.webp",
+        "docsImagePath": "/docs-sponsors/lumadock.webp",
+        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/lumadock.webp"
       }
     ]
   }
