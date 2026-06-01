@@ -4,8 +4,7 @@
   "sources": {
     "repository": "coollabsio/coollabs-cdn",
     "landing": "coollabsio/coolify.io",
-    "imagesBaseUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/",
-    "docsImagesBaseUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/8ca4ab734a84d9f8402bc13352f7295833c075d2/images/docs-sponsors/"
+    "imagesBaseUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/"
   },
   "tiers": {
     "huge": [
@@ -13,10 +12,7 @@
         "name": "SerpAPI",
         "url": "https://serpapi.com",
         "description": "Google Search API — Scrape Google and other search engines from our fast, easy, and complete API.",
-        "imageKey": "serpapi.png",
         "hugeImageStyle": "width: auto; height: 80px; max-width: 100%;",
-        "imagePath": "/sponsors/serpapi.png",
-        "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/serpapi.png",
         "tier": "huge",
         "offPlatform": {
           "aliases": [
@@ -24,501 +20,1043 @@
           ],
           "until": "2027-02-01"
         },
-        "docsImageKey": "serpapi.png",
-        "docsImagePath": "/docs-sponsors/serpapi.png",
-        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/8ca4ab734a84d9f8402bc13352f7295833c075d2/images/docs-sponsors/serpapi.png"
+        "image": {
+          "key": "serpapi.png",
+          "path": "/sponsors/serpapi.png",
+          "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/serpapi.png",
+          "docs": {
+            "path": "/docs-sponsors/serpapi.png",
+            "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/serpapi.png"
+          }
+        }
       },
       {
         "name": "MVPS",
         "url": "https://www.mvps.net",
         "description": "Cheap VPS servers at the highest possible quality",
-        "imageKey": "mvps.png",
         "hugeImageStyle": "width: min(95%, 360px); height: auto; max-height: none;",
         "hugeCardStyle": "padding-inline: 1rem;",
-        "imagePath": "/sponsors/mvps.png",
-        "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/mvps.png",
         "tier": "huge",
-        "docsImageKey": "mvps.png",
-        "docsImagePath": "/docs-sponsors/mvps.png",
-        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/8ca4ab734a84d9f8402bc13352f7295833c075d2/images/docs-sponsors/mvps.png"
+        "image": {
+          "key": "mvps.png",
+          "path": "/sponsors/mvps.png",
+          "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/mvps.png",
+          "docs": {
+            "path": "/docs-sponsors/mvps.png",
+            "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/mvps.png"
+          }
+        }
       },
       {
         "name": "ScreenshotOne",
         "url": "https://screenshotone.com",
         "description": "Screenshot API for devs",
-        "imageKey": "screenshotone.svg",
         "hugeImageStyle": "width: 100%; height: auto; max-height: none; transform: scale(1.2);",
-        "imagePath": "/sponsors/screenshotone.svg",
-        "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/screenshotone.svg",
         "tier": "huge",
-        "docsImageKey": "screenshotone.svg",
-        "docsImagePath": "/docs-sponsors/screenshotone.svg",
-        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/8ca4ab734a84d9f8402bc13352f7295833c075d2/images/docs-sponsors/screenshotone.svg"
+        "image": {
+          "key": "screenshotone.svg",
+          "path": "/sponsors/screenshotone.svg",
+          "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/screenshotone.svg",
+          "docs": {
+            "path": "/docs-sponsors/screenshotone.svg",
+            "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/screenshotone.svg"
+          }
+        }
       },
       {
         "name": "PrivateAlps",
         "url": "https://privatealps.net",
         "description": "Cloud Services Provider, VPS, servers infrastructure for people who care about privacy and control",
-        "imageKey": "privatealps.png",
         "hugeImageStyle": "width: min(95%, 360px); height: auto; max-height: none;",
-        "imagePath": "/sponsors/privatealps.png",
-        "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/privatealps.png",
         "tier": "huge",
-        "docsImageKey": "privatealps.png",
-        "docsImagePath": "/docs-sponsors/privatealps.png",
-        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/8ca4ab734a84d9f8402bc13352f7295833c075d2/images/docs-sponsors/privatealps.png"
+        "image": {
+          "key": "privatealps.png",
+          "path": "/sponsors/privatealps.png",
+          "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/privatealps.png",
+          "docs": {
+            "path": "/docs-sponsors/privatealps.png",
+            "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/privatealps.png"
+          }
+        }
       },
       {
         "name": "Seibert Group",
         "url": "https://seibert.link/coolifysoftware",
         "description": "Boost productivity company-wide with AI agents like Claude Code",
-        "imageKey": "seibert.png",
         "hugeImageStyle": "width: min(80%, 280px); height: auto; max-height: 140px;",
-        "imagePath": "/sponsors/seibert.png",
-        "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/seibert.png",
         "tier": "huge",
-        "docsImageKey": "seibert.png",
-        "docsImagePath": "/docs-sponsors/seibert.png",
-        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/8ca4ab734a84d9f8402bc13352f7295833c075d2/images/docs-sponsors/seibert.png"
+        "image": {
+          "key": "seibert.png",
+          "path": "/sponsors/seibert.png",
+          "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/seibert.png",
+          "docs": {
+            "path": "/docs-sponsors/seibert.png",
+            "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/seibert.png"
+          }
+        }
       }
     ],
     "big": [
       {
+        "name": "Cloudways",
+        "url": "https://www.cloudways.com/en/?id=2125302",
+        "description": "Managed cloud hosting platform by DigitalOcean",
+        "pinned": true,
+        "tier": "big",
+        "offPlatform": {
+          "aliases": [
+            "cloudways"
+          ]
+        },
+        "image": {
+          "key": "cloudways.svg",
+          "path": "/sponsors/cloudways.svg",
+          "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/cloudways.svg"
+        }
+      },
+      {
         "name": "ByteBase",
         "url": "https://www.bytebase.com",
         "description": "Database CI/CD and Security at Scale",
-        "imageKey": "bytebase-white.svg",
-        "imagePath": "/sponsors/bytebase-white.svg",
-        "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/bytebase-white.svg",
         "tier": "big",
-        "docsImageKey": "bytebase.png",
-        "docsImagePath": "/docs-sponsors/bytebase.png",
-        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/8ca4ab734a84d9f8402bc13352f7295833c075d2/images/docs-sponsors/bytebase.png"
+        "image": {
+          "key": "bytebase-white.svg",
+          "path": "/sponsors/bytebase-white.svg",
+          "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/bytebase-white.svg",
+          "docs": {
+            "key": "bytebase.png",
+            "path": "/docs-sponsors/bytebase.png",
+            "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/bytebase.png"
+          }
+        }
       },
       {
         "name": "Ramnode",
         "url": "https://ramnode.com/",
         "description": "High Performance Cloud VPS Hosting",
-        "imageKey": "ramnode.png",
-        "imagePath": "/sponsors/ramnode.png",
-        "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/ramnode.png",
         "tier": "big",
-        "docsImageKey": "ramnode.png",
-        "docsImagePath": "/docs-sponsors/ramnode.png",
-        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/8ca4ab734a84d9f8402bc13352f7295833c075d2/images/docs-sponsors/ramnode.png"
+        "image": {
+          "key": "ramnode.png",
+          "path": "/sponsors/ramnode.png",
+          "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/ramnode.png",
+          "docs": {
+            "path": "/docs-sponsors/ramnode.png",
+            "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/ramnode.png"
+          }
+        }
       },
       {
         "name": "23M",
         "url": "https://23m.com",
         "description": "Your experts for high-availability hosting solutions!",
-        "imageKey": "23mlogo.svg",
-        "imagePath": "/sponsors/23mlogo.svg",
-        "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/23mlogo.svg",
         "tier": "big",
-        "docsImageKey": "23m.svg",
-        "docsImagePath": "/docs-sponsors/23m.svg",
-        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/8ca4ab734a84d9f8402bc13352f7295833c075d2/images/docs-sponsors/23m.svg"
+        "image": {
+          "key": "23mlogo.svg",
+          "path": "/sponsors/23mlogo.svg",
+          "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/23mlogo.svg",
+          "docs": {
+            "key": "23m.svg",
+            "path": "/docs-sponsors/23m.svg",
+            "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/23m.svg"
+          }
+        }
       },
       {
         "name": "Macarne",
         "url": "https://macarne.com",
         "description": "Best IP Transit & Carrier Ethernet Solutions for Simplified Network Connectivity",
-        "imageKey": "macarne.svg",
-        "imagePath": "/sponsors/macarne.svg",
-        "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/macarne.svg",
         "tier": "big",
-        "docsImageKey": "macarne.webp",
-        "docsImagePath": "/docs-sponsors/macarne.webp",
-        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/8ca4ab734a84d9f8402bc13352f7295833c075d2/images/docs-sponsors/macarne.webp"
+        "image": {
+          "key": "macarne.svg",
+          "path": "/sponsors/macarne.svg",
+          "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/macarne.svg",
+          "docs": {
+            "key": "macarne.webp",
+            "path": "/docs-sponsors/macarne.webp",
+            "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/macarne.webp"
+          }
+        }
       },
       {
         "name": "Hetzner",
         "url": "http://htznr.li/CoolifyXHetzner",
         "description": "Server, cloud, hosting, and data center solutions",
-        "imageKey": "hetzner.jpg",
         "imageStyle": "width: auto; height: 60px; max-height: none;",
         "pinned": true,
-        "imagePath": "/sponsors/hetzner.jpg",
-        "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/hetzner.jpg",
         "tier": "big",
         "offPlatform": {
           "aliases": [
             "hetzner"
           ]
         },
-        "docsImageKey": "hetzner.webp",
-        "docsImagePath": "/docs-sponsors/hetzner.webp",
-        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/8ca4ab734a84d9f8402bc13352f7295833c075d2/images/docs-sponsors/hetzner.webp"
+        "image": {
+          "key": "hetzner.jpg",
+          "path": "/sponsors/hetzner.jpg",
+          "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/hetzner.jpg",
+          "docs": {
+            "key": "hetzner.webp",
+            "path": "/docs-sponsors/hetzner.webp",
+            "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/hetzner.webp"
+          }
+        }
       },
       {
         "name": "Logto",
         "url": "https://logto.io",
         "description": "The better identity infrastructure for developers",
-        "imageKey": "logto.webp",
-        "imagePath": "/sponsors/logto.webp",
-        "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/logto.webp",
         "tier": "big",
-        "docsImageKey": "logto.webp",
-        "docsImagePath": "/docs-sponsors/logto.webp",
-        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/8ca4ab734a84d9f8402bc13352f7295833c075d2/images/docs-sponsors/logto.webp"
+        "image": {
+          "key": "logto.webp",
+          "path": "/sponsors/logto.webp",
+          "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/logto.webp",
+          "docs": {
+            "path": "/docs-sponsors/logto.webp",
+            "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/logto.webp"
+          }
+        }
       },
       {
         "name": "Supadata",
         "url": "https://supadata.ai/",
         "description": "Scrape YouTube, web, and files. Get AI-ready, clean data for your next project. ",
-        "imageKey": "supadata.svg",
-        "imagePath": "/sponsors/supadata.svg",
-        "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/supadata.svg",
         "tier": "big",
-        "docsImageKey": "supadata.webp",
-        "docsImagePath": "/docs-sponsors/supadata.webp",
-        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/8ca4ab734a84d9f8402bc13352f7295833c075d2/images/docs-sponsors/supadata.webp"
+        "image": {
+          "key": "supadata.svg",
+          "path": "/sponsors/supadata.svg",
+          "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/supadata.svg",
+          "docs": {
+            "key": "supadata.webp",
+            "path": "/docs-sponsors/supadata.webp",
+            "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/supadata.webp"
+          }
+        }
       },
       {
         "name": "Tolgee",
         "url": "https://tolgee.io",
         "description": "The open source localization platform",
-        "imageKey": "tolgee.svg",
         "additionalContent": "Tolgee",
-        "imagePath": "/sponsors/tolgee.svg",
-        "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/tolgee.svg",
         "tier": "big",
-        "docsImageKey": "tolgee.webp",
-        "docsImagePath": "/docs-sponsors/tolgee.webp",
-        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/8ca4ab734a84d9f8402bc13352f7295833c075d2/images/docs-sponsors/tolgee.webp"
+        "image": {
+          "key": "tolgee.svg",
+          "path": "/sponsors/tolgee.svg",
+          "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/tolgee.svg",
+          "docs": {
+            "key": "tolgee.webp",
+            "path": "/docs-sponsors/tolgee.webp",
+            "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/tolgee.webp"
+          }
+        }
       },
       {
         "name": "Best Consultant",
         "url": "https://bc.direct",
         "description": "Your trusted technology consulting partner",
-        "imageKey": "bc.png",
-        "imagePath": "/sponsors/bc.png",
-        "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/bc.png",
         "tier": "big",
-        "docsImageKey": "bc.webp",
-        "docsImagePath": "/docs-sponsors/bc.webp",
-        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/8ca4ab734a84d9f8402bc13352f7295833c075d2/images/docs-sponsors/bc.webp"
+        "image": {
+          "key": "bc.png",
+          "path": "/sponsors/bc.png",
+          "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/bc.png",
+          "docs": {
+            "key": "bc.webp",
+            "path": "/docs-sponsors/bc.webp",
+            "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/bc.webp"
+          }
+        }
       },
       {
         "name": "ArcJet",
         "url": "https://arcjet.com",
         "description": "Advanced web security and performance solutions",
-        "imageKey": "arcjet.svg",
-        "imagePath": "/sponsors/arcjet.svg",
-        "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/arcjet.svg",
         "tier": "big",
-        "docsImageKey": "arcjet.webp",
-        "docsImagePath": "/docs-sponsors/arcjet.webp",
-        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/8ca4ab734a84d9f8402bc13352f7295833c075d2/images/docs-sponsors/arcjet.webp"
+        "image": {
+          "key": "arcjet.svg",
+          "path": "/sponsors/arcjet.svg",
+          "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/arcjet.svg",
+          "docs": {
+            "key": "arcjet.webp",
+            "path": "/docs-sponsors/arcjet.webp",
+            "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/arcjet.webp"
+          }
+        }
       },
       {
         "name": "SupaGuide",
         "url": "https://supa.guide",
         "description": "Your comprehensive guide to Supabase",
-        "imageKey": "supaguide.png",
-        "imagePath": "/sponsors/supaguide.png",
-        "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/supaguide.png",
         "tier": "big",
-        "docsImageKey": "supaguide.webp",
-        "docsImagePath": "/docs-sponsors/supaguide.webp",
-        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/8ca4ab734a84d9f8402bc13352f7295833c075d2/images/docs-sponsors/supaguide.webp"
+        "image": {
+          "key": "supaguide.png",
+          "path": "/sponsors/supaguide.png",
+          "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/supaguide.png",
+          "docs": {
+            "key": "supaguide.webp",
+            "path": "/docs-sponsors/supaguide.webp",
+            "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/supaguide.webp"
+          }
+        }
       },
       {
         "name": "CodeRabbit",
         "url": "https://coderabbit.ai",
         "description": "Cut Code Review Time & Bugs in Half",
-        "imageKey": "coderabbit.svg",
         "pinned": true,
-        "imagePath": "/sponsors/coderabbit.svg",
-        "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/coderabbit.svg",
         "tier": "big",
-        "docsImageKey": "coderabbit.webp",
-        "docsImagePath": "/docs-sponsors/coderabbit.webp",
-        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/8ca4ab734a84d9f8402bc13352f7295833c075d2/images/docs-sponsors/coderabbit.webp"
+        "image": {
+          "key": "coderabbit.svg",
+          "path": "/sponsors/coderabbit.svg",
+          "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/coderabbit.svg",
+          "docs": {
+            "key": "coderabbit.webp",
+            "path": "/docs-sponsors/coderabbit.webp",
+            "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/coderabbit.webp"
+          }
+        }
       },
       {
         "name": "Convex",
         "url": "https://convex.link/coolify.io",
         "description": "Convex is the open-source reactive database for web app developers.",
-        "imageKey": "convex.svg",
         "imageStyle": "width: auto; height: 60px; max-height: none;",
-        "imagePath": "/sponsors/convex.svg",
-        "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/convex.svg",
         "tier": "big",
-        "docsImageKey": "convex.webp",
-        "docsImagePath": "/docs-sponsors/convex.webp",
-        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/8ca4ab734a84d9f8402bc13352f7295833c075d2/images/docs-sponsors/convex.webp"
+        "image": {
+          "key": "convex.svg",
+          "path": "/sponsors/convex.svg",
+          "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/convex.svg",
+          "docs": {
+            "key": "convex.webp",
+            "path": "/docs-sponsors/convex.webp",
+            "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/convex.webp"
+          }
+        }
       },
       {
         "name": "GoldenVM",
         "url": "https://billing.goldenvm.com",
         "description": "Premium virtual machine hosting solutions",
-        "imageKey": "goldenvm.png",
-        "imagePath": "/sponsors/goldenvm.png",
-        "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/goldenvm.png",
         "tier": "big",
-        "docsImageKey": "goldenvm.webp",
-        "docsImagePath": "/docs-sponsors/goldenvm.webp",
-        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/8ca4ab734a84d9f8402bc13352f7295833c075d2/images/docs-sponsors/goldenvm.webp"
+        "image": {
+          "key": "goldenvm.png",
+          "path": "/sponsors/goldenvm.png",
+          "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/goldenvm.png",
+          "docs": {
+            "key": "goldenvm.webp",
+            "path": "/docs-sponsors/goldenvm.webp",
+            "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/goldenvm.webp"
+          }
+        }
       },
       {
         "name": "Comit International",
         "url": "https://comit.international",
         "description": "New York Times award–winning contractor!",
-        "imageKey": "comit.svg",
-        "imagePath": "/sponsors/comit.svg",
-        "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/comit.svg",
         "tier": "big",
-        "docsImageKey": "comit.webp",
-        "docsImagePath": "/docs-sponsors/comit.webp",
-        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/8ca4ab734a84d9f8402bc13352f7295833c075d2/images/docs-sponsors/comit.webp"
+        "image": {
+          "key": "comit.svg",
+          "path": "/sponsors/comit.svg",
+          "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/comit.svg",
+          "docs": {
+            "key": "comit.webp",
+            "path": "/docs-sponsors/comit.webp",
+            "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/comit.webp"
+          }
+        }
       },
       {
         "name": "Compai",
         "url": "https://www.trycomp.ai",
         "description": "The open source compliance automation platform that does everything you need to get compliant, fast. Open source alternative to Drata & Vanta.",
-        "imageKey": "compai.svg",
-        "imagePath": "/sponsors/compai.svg",
-        "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/compai.svg",
         "tier": "big",
-        "docsImageKey": "comp.webp",
-        "docsImagePath": "/docs-sponsors/comp.webp",
-        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/8ca4ab734a84d9f8402bc13352f7295833c075d2/images/docs-sponsors/comp.webp"
+        "image": {
+          "key": "compai.svg",
+          "path": "/sponsors/compai.svg",
+          "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/compai.svg",
+          "docs": {
+            "key": "comp.webp",
+            "path": "/docs-sponsors/comp.webp",
+            "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/comp.webp"
+          }
+        }
       },
       {
         "name": "Tigris",
         "url": "https://www.tigrisdata.com",
         "description": "Modern S3 Alternative",
-        "imageKey": "tigris.svg",
-        "imagePath": "/sponsors/tigris.svg",
-        "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/tigris.svg",
         "tier": "big",
-        "docsImageKey": "tigris.webp",
-        "docsImagePath": "/docs-sponsors/tigris.webp",
-        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/8ca4ab734a84d9f8402bc13352f7295833c075d2/images/docs-sponsors/tigris.webp"
+        "image": {
+          "key": "tigris.svg",
+          "path": "/sponsors/tigris.svg",
+          "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/tigris.svg",
+          "docs": {
+            "key": "tigris.webp",
+            "path": "/docs-sponsors/tigris.webp",
+            "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/tigris.webp"
+          }
+        }
       },
       {
         "name": "Blacksmith",
         "url": "https://blacksmith.sh",
         "description": "Infrastructure automation platform",
-        "imageKey": "blacksmith.svg",
         "imageStyle": "width: auto; height: 40px; max-height: none;",
-        "imagePath": "/sponsors/blacksmith.svg",
-        "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/blacksmith.svg",
         "tier": "big",
-        "docsImageKey": "blacksmith.webp",
-        "docsImagePath": "/docs-sponsors/blacksmith.webp",
-        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/8ca4ab734a84d9f8402bc13352f7295833c075d2/images/docs-sponsors/blacksmith.webp"
+        "image": {
+          "key": "blacksmith.svg",
+          "path": "/sponsors/blacksmith.svg",
+          "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/blacksmith.svg",
+          "docs": {
+            "key": "blacksmith.webp",
+            "path": "/docs-sponsors/blacksmith.webp",
+            "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/blacksmith.webp"
+          }
+        }
       },
       {
         "name": "Capture.page",
         "url": "https://capture.page/",
         "description": "Fast & Reliable Screenshot API for Developers",
-        "imageKey": "capture-page.png",
         "imageStyle": "width: auto; height: 50px; max-height: none;",
-        "imagePath": "/sponsors/capture-page.png",
-        "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/capture-page.png",
         "tier": "big",
-        "docsImageKey": "capture-page.webp",
-        "docsImagePath": "/docs-sponsors/capture-page.webp",
-        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/8ca4ab734a84d9f8402bc13352f7295833c075d2/images/docs-sponsors/capture-page.webp"
+        "image": {
+          "key": "capture-page.png",
+          "path": "/sponsors/capture-page.png",
+          "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/capture-page.png",
+          "docs": {
+            "key": "capture-page.webp",
+            "path": "/docs-sponsors/capture-page.webp",
+            "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/capture-page.webp"
+          }
+        }
       },
       {
         "name": "JobsCollider",
         "url": "https://jobscollider.com/remote-jobs",
         "description": "30,000+ remote jobs for developers",
-        "imageKey": "jobscollider.svg",
         "imageStyle": "width: auto; height: 42px; max-height: none;",
-        "imagePath": "/sponsors/jobscollider.svg",
-        "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/jobscollider.svg",
         "tier": "big",
-        "docsImageKey": "jobscollider.webp",
-        "docsImagePath": "/docs-sponsors/jobscollider.webp",
-        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/8ca4ab734a84d9f8402bc13352f7295833c075d2/images/docs-sponsors/jobscollider.webp"
+        "image": {
+          "key": "jobscollider.svg",
+          "path": "/sponsors/jobscollider.svg",
+          "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/jobscollider.svg",
+          "docs": {
+            "key": "jobscollider.webp",
+            "path": "/docs-sponsors/jobscollider.webp",
+            "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/jobscollider.webp"
+          }
+        }
       },
       {
         "name": "Darweb",
         "url": "https://darweb.nl/?ref=coolify.io&utm_source=coolify.io",
         "description": "Design. Develop. Deliver. Specialized in 3D CPQ Solutions for eCommerce.",
-        "imageKey": "darweb.svg",
-        "imagePath": "/sponsors/darweb.svg",
-        "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/darweb.svg",
         "tier": "big",
-        "docsImageKey": "darweb.webp",
-        "docsImagePath": "/docs-sponsors/darweb.webp",
-        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/8ca4ab734a84d9f8402bc13352f7295833c075d2/images/docs-sponsors/darweb.webp"
+        "image": {
+          "key": "darweb.svg",
+          "path": "/sponsors/darweb.svg",
+          "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/darweb.svg",
+          "docs": {
+            "key": "darweb.webp",
+            "path": "/docs-sponsors/darweb.webp",
+            "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/darweb.webp"
+          }
+        }
       },
       {
         "name": "Hostinger",
         "url": "https://www.hostinger.com/vps/coolify-hosting",
         "description": "Web hosting and VPS solutions",
-        "imageKey": "hostinger.svg",
         "imageStyle": "width: auto; height: 40px; max-height: none;",
-        "imagePath": "/sponsors/hostinger.svg",
-        "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/hostinger.svg",
         "tier": "big",
-        "docsImageKey": "hostinger.webp",
-        "docsImagePath": "/docs-sponsors/hostinger.webp",
-        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/8ca4ab734a84d9f8402bc13352f7295833c075d2/images/docs-sponsors/hostinger.webp"
+        "image": {
+          "key": "hostinger.svg",
+          "path": "/sponsors/hostinger.svg",
+          "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/hostinger.svg",
+          "docs": {
+            "key": "hostinger.webp",
+            "path": "/docs-sponsors/hostinger.webp",
+            "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/hostinger.webp"
+          }
+        }
       },
       {
         "name": "Mobb",
         "url": "https://vibe.mobb.ai/",
         "description": "Secure Your AI-Generated Code to Unlock Dev Productivity",
-        "imageKey": "mobb.svg",
-        "imagePath": "/sponsors/mobb.svg",
-        "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/mobb.svg",
         "tier": "big",
-        "docsImageKey": "mobb.svg",
-        "docsImagePath": "/docs-sponsors/mobb.svg",
-        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/8ca4ab734a84d9f8402bc13352f7295833c075d2/images/docs-sponsors/mobb.svg"
+        "image": {
+          "key": "mobb.svg",
+          "path": "/sponsors/mobb.svg",
+          "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/mobb.svg",
+          "docs": {
+            "path": "/docs-sponsors/mobb.svg",
+            "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/mobb.svg"
+          }
+        }
       },
       {
         "name": "Ubicloud",
         "url": "https://www.ubicloud.com",
         "description": "Open source cloud infrastructure platform",
-        "imageKey": "ubicloud.svg",
-        "imagePath": "/sponsors/ubicloud.svg",
-        "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/ubicloud.svg",
         "tier": "big",
-        "docsImageKey": "ubicloud.webp",
-        "docsImagePath": "/docs-sponsors/ubicloud.webp",
-        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/8ca4ab734a84d9f8402bc13352f7295833c075d2/images/docs-sponsors/ubicloud.webp"
+        "image": {
+          "key": "ubicloud.svg",
+          "path": "/sponsors/ubicloud.svg",
+          "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/ubicloud.svg",
+          "docs": {
+            "key": "ubicloud.webp",
+            "path": "/docs-sponsors/ubicloud.webp",
+            "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/ubicloud.webp"
+          }
+        }
       },
       {
         "name": "PFGLabs",
         "url": "https://pfglabs.com",
         "description": "Build Real Projects with Golang",
-        "imageKey": "pfglabs.svg",
         "imageStyle": "width: auto; height: 40px; max-height: none;",
         "additionalContent": "PFGLabs",
-        "imagePath": "/sponsors/pfglabs.svg",
-        "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/pfglabs.svg",
         "tier": "big",
-        "docsImageKey": "pfglabs.webp",
-        "docsImagePath": "/docs-sponsors/pfglabs.webp",
-        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/8ca4ab734a84d9f8402bc13352f7295833c075d2/images/docs-sponsors/pfglabs.webp"
+        "image": {
+          "key": "pfglabs.svg",
+          "path": "/sponsors/pfglabs.svg",
+          "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/pfglabs.svg",
+          "docs": {
+            "key": "pfglabs.webp",
+            "path": "/docs-sponsors/pfglabs.webp",
+            "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/pfglabs.webp"
+          }
+        }
       },
       {
         "name": "JuxtDigital",
         "url": "https://juxtdigital.com",
         "description": "Digital PR & AI Authority Building Agency",
-        "imageKey": "juxtdigital.png",
-        "imagePath": "/sponsors/juxtdigital.png",
-        "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/juxtdigital.png",
         "tier": "big",
-        "docsImageKey": "juxtdigital.webp",
-        "docsImagePath": "/docs-sponsors/juxtdigital.webp",
-        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/8ca4ab734a84d9f8402bc13352f7295833c075d2/images/docs-sponsors/juxtdigital.webp"
+        "image": {
+          "key": "juxtdigital.png",
+          "path": "/sponsors/juxtdigital.png",
+          "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/juxtdigital.png",
+          "docs": {
+            "key": "juxtdigital.webp",
+            "path": "/docs-sponsors/juxtdigital.webp",
+            "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/juxtdigital.webp"
+          }
+        }
       },
       {
         "name": "SaasyKit",
         "url": "https://saasykit.com",
         "description": "Complete SaaS starter kit for developers",
-        "imageKey": "sassykit.jpeg",
         "imageStyle": "width: auto; height: 60px; max-height: none;",
-        "imagePath": "/sponsors/sassykit.jpeg",
-        "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/sassykit.jpeg",
         "tier": "big",
-        "docsImageKey": "saasykit.webp",
-        "docsImagePath": "/docs-sponsors/saasykit.webp",
-        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/8ca4ab734a84d9f8402bc13352f7295833c075d2/images/docs-sponsors/saasykit.webp"
+        "image": {
+          "key": "sassykit.jpeg",
+          "path": "/sponsors/sassykit.jpeg",
+          "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/sassykit.jpeg",
+          "docs": {
+            "key": "saasykit.webp",
+            "path": "/docs-sponsors/saasykit.webp",
+            "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/saasykit.webp"
+          }
+        }
       },
       {
         "name": "American Cloud",
         "url": "https://americancloud.com",
         "description": "US-based cloud infrastructure services",
-        "imageKey": "americancloud.svg",
         "imageStyle": "width: auto; height: 60px; max-height: none;",
-        "imagePath": "/sponsors/americancloud.svg",
-        "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/americancloud.svg",
         "tier": "big",
-        "docsImageKey": "americancloud.webp",
-        "docsImagePath": "/docs-sponsors/americancloud.webp",
-        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/8ca4ab734a84d9f8402bc13352f7295833c075d2/images/docs-sponsors/americancloud.webp"
+        "image": {
+          "key": "americancloud.svg",
+          "path": "/sponsors/americancloud.svg",
+          "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/americancloud.svg",
+          "docs": {
+            "key": "americancloud.webp",
+            "path": "/docs-sponsors/americancloud.webp",
+            "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/americancloud.webp"
+          }
+        }
       },
       {
         "name": "LiquidWeb",
         "url": "https://liquidweb.com",
         "description": "Premium managed hosting solutions",
-        "imageKey": "liquid.svg",
-        "imagePath": "/sponsors/liquid.svg",
-        "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/liquid.svg",
         "tier": "big",
-        "docsImageKey": "liquidweb.webp",
-        "docsImagePath": "/docs-sponsors/liquidweb.webp",
-        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/8ca4ab734a84d9f8402bc13352f7295833c075d2/images/docs-sponsors/liquidweb.webp"
+        "image": {
+          "key": "liquid.svg",
+          "path": "/sponsors/liquid.svg",
+          "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/liquid.svg",
+          "docs": {
+            "key": "liquidweb.webp",
+            "path": "/docs-sponsors/liquidweb.webp",
+            "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/liquidweb.webp"
+          }
+        }
       },
       {
         "name": "Greptile",
         "url": "https://www.greptile.com",
         "description": "The AI Code Reviewer",
-        "imageKey": "greptile.svg",
-        "imagePath": "/sponsors/greptile.svg",
-        "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/greptile.svg",
         "tier": "big",
-        "docsImageKey": "greptile.svg",
-        "docsImagePath": "/docs-sponsors/greptile.svg",
-        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/8ca4ab734a84d9f8402bc13352f7295833c075d2/images/docs-sponsors/greptile.svg"
+        "image": {
+          "key": "greptile.svg",
+          "path": "/sponsors/greptile.svg",
+          "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/greptile.svg",
+          "docs": {
+            "path": "/docs-sponsors/greptile.svg",
+            "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/greptile.svg"
+          }
+        }
       },
       {
         "name": "VPSDime",
         "url": "https://vpsdime.com/",
         "description": "Cheap VPS Hosting - 4GB for $5/month",
-        "imageKey": "vpsdime-logo.svg",
-        "imagePath": "/sponsors/vpsdime-logo.svg",
-        "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/vpsdime-logo.svg",
         "tier": "big",
-        "docsImageKey": "vpsdime.svg",
-        "docsImagePath": "/docs-sponsors/vpsdime.svg",
-        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/8ca4ab734a84d9f8402bc13352f7295833c075d2/images/docs-sponsors/vpsdime.svg"
+        "image": {
+          "key": "vpsdime-logo.svg",
+          "path": "/sponsors/vpsdime-logo.svg",
+          "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/vpsdime-logo.svg",
+          "docs": {
+            "key": "vpsdime.svg",
+            "path": "/docs-sponsors/vpsdime.svg",
+            "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/vpsdime.svg"
+          }
+        }
       },
       {
         "name": "dataforest Cloud",
         "url": "https://cloud.dataforest.net/en",
         "description": "Deploy cloud servers as seeds independently in seconds. Enterprise hardware, premium network, 100% made in Germany.",
-        "imageKey": "dataforest.svg",
-        "imagePath": "/sponsors/dataforest.svg",
-        "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/dataforest.svg",
         "tier": "big",
-        "docsImageKey": "dataforest.svg",
-        "docsImagePath": "/docs-sponsors/dataforest.svg",
-        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/8ca4ab734a84d9f8402bc13352f7295833c075d2/images/docs-sponsors/dataforest.svg"
+        "image": {
+          "key": "dataforest.svg",
+          "path": "/sponsors/dataforest.svg",
+          "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/dataforest.svg",
+          "docs": {
+            "path": "/docs-sponsors/dataforest.svg",
+            "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/dataforest.svg"
+          }
+        }
       },
       {
         "name": "ISHosting",
         "url": "https://ishosting.com/",
         "description": "Hosting and VPS solutions",
-        "imageKey": "ishosting.svg",
         "imageStyle": "width: auto; height: 60px; max-height: none;",
-        "imagePath": "/sponsors/ishosting.svg",
-        "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/ishosting.svg",
-        "tier": "big"
+        "tier": "big",
+        "image": {
+          "key": "ishosting.svg",
+          "path": "/sponsors/ishosting.svg",
+          "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/ishosting.svg"
+        }
       },
       {
         "name": "PetroSky Cloud",
         "url": "https://petrosky.io",
         "description": "Open source cloud deployment solutions",
-        "imageKey": "petrosky.svg",
-        "imagePath": "/sponsors/petrosky.svg",
-        "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/petrosky.svg",
         "tier": "big",
-        "docsImageKey": "petrosky.png",
-        "docsImagePath": "/docs-sponsors/petrosky.png",
-        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/8ca4ab734a84d9f8402bc13352f7295833c075d2/images/docs-sponsors/petrosky.png"
+        "image": {
+          "key": "petrosky.svg",
+          "path": "/sponsors/petrosky.svg",
+          "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/petrosky.svg",
+          "docs": {
+            "key": "petrosky.png",
+            "path": "/docs-sponsors/petrosky.png",
+            "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/petrosky.png"
+          }
+        }
       },
       {
         "name": "LumaDock",
         "url": "https://lumadock.com/vps-hosting/coolify?utm_source=coolify&utm_medium=sponsorship&utm_campaign=coolify_oss_sponsor_2026&utm_content=landing_footer",
         "description": "Fast and reliable virtual server hosting",
-        "imageKey": "lumadock.png",
         "imageStyle": "width: auto; height: 36px; max-height: none;",
-        "imagePath": "/sponsors/lumadock.png",
-        "imageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/lumadock.png",
         "tier": "big",
-        "docsImageKey": "lumadock.webp",
-        "docsImagePath": "/docs-sponsors/lumadock.webp",
-        "docsImageUrl": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/8ca4ab734a84d9f8402bc13352f7295833c075d2/images/docs-sponsors/lumadock.webp"
+        "image": {
+          "key": "lumadock.png",
+          "path": "/sponsors/lumadock.png",
+          "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/lumadock.png",
+          "docs": {
+            "key": "lumadock.webp",
+            "path": "/docs-sponsors/lumadock.webp",
+            "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/lumadock.webp"
+          }
+        }
+      }
+    ],
+    "small": [
+      {
+        "name": "Vanaways",
+        "url": "https://vanaways.co.uk/?utm_source=coolify.io",
+        "description": "Vanaways",
+        "tier": "small",
+        "newest": true,
+        "image": {
+          "url": "https://github.com/Vanaways.png"
+        }
+      },
+      {
+        "name": "Netrouting",
+        "url": "https://www.netrouting.com/?utm_source=coolify.io",
+        "description": "Netrouting",
+        "tier": "small",
+        "image": {
+          "url": "https://github.com/netroutingcom.png"
+        }
+      },
+      {
+        "name": "MindEd Tech",
+        "url": "https://github.com/mindedtech",
+        "description": "MindEd Tech",
+        "tier": "small",
+        "image": {
+          "url": "https://github.com/mindedtech.png"
+        }
+      },
+      {
+        "name": "YouStable",
+        "url": "https://youstable.com/?utm_source=coolify.io",
+        "description": "YouStable",
+        "tier": "small",
+        "image": {
+          "url": "https://github.com/youstable.png"
+        }
+      },
+      {
+        "name": "Transcript LOL",
+        "url": "https://transcript.lol/?utm_source=coolify.io",
+        "description": "Transcript LOL",
+        "tier": "small",
+        "image": {
+          "url": "https://transcript.lol/logo.png"
+        }
+      },
+      {
+        "name": "Autom",
+        "url": "https://www.autom.dev/?utm_source=coolify.io",
+        "description": "Autom",
+        "tier": "small",
+        "image": {
+          "key": "autom.png",
+          "path": "/sponsors/autom.png",
+          "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/autom.png"
+        }
+      },
+      {
+        "name": "HuntAPI",
+        "url": "https://www.huntapi.com/?utm_source=coolify.io",
+        "description": "HuntAPI",
+        "tier": "small",
+        "image": {
+          "key": "huntapi.png",
+          "path": "/sponsors/huntapi.png",
+          "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/huntapi.png"
+        }
+      },
+      {
+        "name": "ULTRASERVERS",
+        "url": "https://ultraservers.com/?utm_source=coolify.io",
+        "description": "ULTRASERVERS",
+        "tier": "small",
+        "image": {
+          "url": "https://github.com/ULTRASERVERS.png"
+        }
+      },
+      {
+        "name": "VibeTone",
+        "url": "https://vibetone.com/?utm_source=coolify.io",
+        "description": "VibeTone",
+        "tier": "small",
+        "image": {
+          "url": "https://github.com/vibetonefm.png"
+        }
+      },
+      {
+        "name": "Piloterr",
+        "url": "https://www.piloterr.com/?utm_source=coolify.io",
+        "description": "Piloterr",
+        "tier": "small",
+        "isPublicImage": true,
+        "image": {
+          "key": "piloterr.svg",
+          "path": "/sponsors/piloterr.svg",
+          "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/piloterr.svg"
+        }
+      },
+      {
+        "name": "Alexey Panteleev",
+        "url": "https://yoxel.com/?utm_source=coolify.io",
+        "description": "Alexey Panteleev",
+        "tier": "small",
+        "image": {
+          "url": "https://github.com/aspantel.png"
+        }
+      },
+      {
+        "name": "SummYT - YouTube Summarizer",
+        "url": "https://summyt.app?utm_source=coolify.io",
+        "description": "SummYT - YouTube Summarizer",
+        "tier": "small",
+        "image": {
+          "url": "https://summyt.app/logo.svg"
+        }
+      },
+      {
+        "name": "OpenElements",
+        "url": "https://open-elements.com/?utm_source=coolify.io",
+        "description": "OpenElements",
+        "tier": "small",
+        "image": {
+          "url": "https://github.com/OpenElements.png"
+        }
+      },
+      {
+        "name": "Xaman",
+        "url": "https://xaman.app/?utm_source=coolify.io",
+        "description": "Xaman",
+        "tier": "small",
+        "image": {
+          "url": "https://github.com/XamanApp.png"
+        }
+      },
+      {
+        "name": "Monadical",
+        "url": "https://monadical.com/?utm_source=coolify.io",
+        "description": "Monadical",
+        "tier": "small",
+        "image": {
+          "url": "https://github.com/Monadical-SAS.png"
+        }
+      },
+      {
+        "name": "Magic as a Service",
+        "url": "https://maas.engineering/?utm_source=coolify.io",
+        "description": "Magic as a Service",
+        "tier": "small",
+        "image": {
+          "url": "https://github.com/magicasaservice.png"
+        }
+      },
+      {
+        "name": "FiveManage",
+        "url": "https://fivemanage.com?utm_source=coolify.io",
+        "description": "FiveManage",
+        "tier": "small",
+        "image": {
+          "key": "fivemanage.jpg",
+          "path": "/sponsors/fivemanage.jpg",
+          "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/fivemanage.jpg"
+        }
+      },
+      {
+        "name": "Crypto Jobs List",
+        "url": "https://cryptojobslist.com/?utm_source=coolify.io",
+        "description": "Crypto Jobs List",
+        "tier": "small",
+        "image": {
+          "url": "https://github.com/cryptojobslist.png"
+        }
+      },
+      {
+        "name": "SerpAPI",
+        "url": "https://serpapi.com/?utm_source=coolify.io",
+        "description": "SerpAPI",
+        "tier": "small",
+        "image": {
+          "url": "https://github.com/serpapi.png"
+        }
+      },
+      {
+        "name": "typebot",
+        "url": "https://typebot.io/?utm_source=coolify.io",
+        "description": "typebot",
+        "tier": "small",
+        "image": {
+          "url": "https://cdn.bsky.app/img/avatar/plain/did:plc:gwxcta3pccyim4z5vuultdqx/bafkreig23hci7e2qpdxicsshnuzujbcbcgmydxhbybkewszdezhdodv42m@jpeg"
+        }
+      },
+      {
+        "name": "360Creators",
+        "url": "https://360creators.com/?utm_source=coolify.io",
+        "description": "360Creators",
+        "tier": "small",
+        "image": {
+          "url": "https://opencollective-production.s3.us-west-1.amazonaws.com/account-avatar/503e0953-bff7-4296-b4cc-5e36d40eecc0/icon-360creators.png"
+        }
+      },
+      {
+        "name": "Cap-go",
+        "url": "https://capgo.app/?utm_source=coolify.io",
+        "description": "Cap-go",
+        "tier": "small",
+        "image": {
+          "url": "https://github.com/cap-go.png"
+        }
+      },
+      {
+        "name": "Cirun",
+        "url": "https://cirun.io/?utm_source=coolify.io",
+        "description": "Cirun",
+        "tier": "small",
+        "image": {
+          "key": "cirun-logo.png",
+          "path": "/sponsors/cirun-logo.png",
+          "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/cirun-logo.png"
+        }
+      },
+      {
+        "name": "Become a sponsor",
+        "url": "https://github.com/sponsors/coollabsio/sponsorships?tier_id=61570&preview=false",
+        "description": "Become a sponsor",
+        "tier": "small",
+        "isSpecial": true,
+        "image": {
+          "url": "question"
+        }
+      },
+      {
+        "name": "Internet Garden",
+        "url": "https://internetgarden.co/?utm_source=coolify.io",
+        "description": "Internet Garden",
+        "tier": "small",
+        "isPublicImage": true,
+        "image": {
+          "key": "internetgarden.ico",
+          "path": "/sponsors/internetgarden.ico",
+          "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/internetgarden.ico"
+        }
+      },
+      {
+        "name": "Evercam",
+        "url": "https://evercam.io/?utm_source=coolify.io",
+        "description": "Evercam",
+        "tier": "small",
+        "image": {
+          "url": "https://github.com/evercam.png"
+        }
+      },
+      {
+        "name": "Web3 Jobs",
+        "url": "https://web3.career/?utm_source=coolify.io",
+        "description": "Web3 Jobs",
+        "tier": "small",
+        "image": {
+          "key": "web3jobs.png",
+          "path": "/sponsors/web3jobs.png",
+          "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/web3jobs.png"
+        }
+      },
+      {
+        "name": "LinkDr",
+        "url": "https://linkdr.com?utm_source=coolify.io",
+        "description": "LinkDr",
+        "tier": "small",
+        "isPublicImage": true,
+        "image": {
+          "key": "linkdr.svg",
+          "path": "/sponsors/linkdr.svg",
+          "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/linkdr.svg"
+        }
+      },
+      {
+        "name": "Arvensis Systems",
+        "url": "https://arvensis.systems/?utm_source=coolify.io",
+        "description": "Arvensis Systems",
+        "tier": "small",
+        "image": {
+          "key": "arvensis.png",
+          "path": "/sponsors/arvensis.png",
+          "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/arvensis.png"
+        }
+      },
+      {
+        "name": "Reshot",
+        "url": "https://www.reshot.ai/?utm_source=coolify.io",
+        "description": "Reshot",
+        "tier": "small",
+        "image": {
+          "key": "reshotai.png",
+          "path": "/sponsors/reshotai.png",
+          "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/reshotai.png"
+        }
+      },
+      {
+        "name": "RunPod",
+        "url": "https://www.runpod.io/?utm_source=coolify.io",
+        "description": "RunPod",
+        "tier": "small",
+        "isSpecial": true,
+        "image": {
+          "key": "runpod.svg",
+          "path": "/sponsors/runpod.svg",
+          "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/runpod.svg"
+        }
+      },
+      {
+        "name": "Gravity Wiz",
+        "url": "http://gravitywiz.com/?utm_source=coolify.io",
+        "description": "Gravity Wiz",
+        "tier": "small",
+        "image": {
+          "url": "https://github.com/gravitywiz.png"
+        }
+      },
+      {
+        "name": "UXWizz",
+        "url": "https://www.uxwizz.com/?utm_source=coolify.io",
+        "description": "UXWizz",
+        "tier": "small",
+        "image": {
+          "url": "https://github.com/UXWizz.png"
+        }
+      },
+      {
+        "name": "Codext",
+        "url": "https://codext.link/coolify-io?utm_source=coolify.io",
+        "description": "Codext",
+        "tier": "small",
+        "image": {
+          "key": "codext.jpg",
+          "path": "/sponsors/codext.jpg",
+          "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/codext.jpg"
+        }
+      },
+      {
+        "name": "InterviewPal",
+        "url": "https://interviewpal.com",
+        "description": "InterviewPal",
+        "tier": "small",
+        "image": {
+          "key": "interviewpal.svg",
+          "path": "/sponsors/interviewpal.svg",
+          "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/interviewpal.svg"
+        }
+      },
+      {
+        "name": "Decidable",
+        "url": "https://decidable.no?utm_source=coolify.io",
+        "description": "Decidable",
+        "tier": "small",
+        "image": {
+          "url": "https://github.com/Decidable-AS.png"
+        }
+      },
+      {
+        "name": "Host Havoc",
+        "url": "https://hosthavoc.com",
+        "description": "Game server hosting, VPS, and dedicated server hosting",
+        "tier": "small",
+        "offPlatform": {
+          "aliases": [
+            "hosthavoc"
+          ]
+        },
+        "image": {
+          "key": "hosthavoc.png",
+          "path": "/sponsors/hosthavoc.png",
+          "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/hosthavoc.png"
+        }
       }
     ]
   }
