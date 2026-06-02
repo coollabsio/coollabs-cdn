@@ -895,6 +895,15 @@
         }
       },
       {
+        "name": "LaunchFast",
+        "url": "https://www.launchfa.st?utm_source=coolify.io",
+        "description": "LaunchFast",
+        "tier": "small",
+        "image": {
+          "url": "https://github.com/LaunchFast-Boilerplates.png"
+        }
+      },
+      {
         "name": "Cirun",
         "url": "https://cirun.io/?utm_source=coolify.io",
         "description": "Cirun",
