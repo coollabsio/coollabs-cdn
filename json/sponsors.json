@@ -687,11 +687,20 @@
     ],
     "small": [
       {
+        "name": "LaunchFast Boilerplates",
+        "url": "https://www.launchfa.st/?utm_source=coolify.io",
+        "description": "LaunchFast Boilerplates",
+        "tier": "small",
+        "newest": true,
+        "image": {
+          "url": "https://github.com/LaunchFast-Boilerplates.png"
+        }
+      },
+      {
         "name": "Vanaways",
         "url": "https://vanaways.co.uk/?utm_source=coolify.io",
         "description": "Vanaways",
         "tier": "small",
-        "newest": true,
         "image": {
           "url": "https://github.com/Vanaways.png"
         }
