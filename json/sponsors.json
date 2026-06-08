@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-23",
+  "updatedAt": "2026-06-08",
   "sources": {
     "repository": "coollabsio/coollabs-cdn",
     "landing": "coollabsio/coolify.io",
@@ -682,6 +682,17 @@
             "path": "/docs-sponsors/lumadock.webp",
             "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/lumadock.webp"
           }
+        }
+      },
+      {
+        "name": "QuickSrv",
+        "url": "https://quicksrv.io/",
+        "description": "Fast and reliable server hosting",
+        "tier": "big",
+        "image": {
+          "key": "quicksrv.svg",
+          "path": "/sponsors/quicksrv.svg",
+          "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/quicksrv.svg"
         }
       }
     ],
