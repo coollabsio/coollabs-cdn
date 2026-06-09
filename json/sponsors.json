@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-08",
+  "updatedAt": "2026-06-09",
   "sources": {
     "repository": "coollabsio/coollabs-cdn",
     "landing": "coollabsio/coolify.io",
@@ -698,11 +698,20 @@
     ],
     "small": [
       {
+        "name": "ABXY",
+        "url": "https://abxylabs.com/?utm_source=coolify.io",
+        "description": "ABXY",
+        "tier": "small",
+        "newest": true,
+        "image": {
+          "url": "https://github.com/abxy-labs.png"
+        }
+      },
+      {
         "name": "LaunchFast Boilerplates",
         "url": "https://www.launchfa.st/?utm_source=coolify.io",
         "description": "LaunchFast Boilerplates",
         "tier": "small",
-        "newest": true,
         "image": {
           "url": "https://github.com/LaunchFast-Boilerplates.png"
         }
