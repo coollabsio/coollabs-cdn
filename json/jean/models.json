@@ -1,0 +1,125 @@
+{
+  "version": 1,
+  "updated_at": "2026-06-09T00:00:00Z",
+  "defaults": {
+    "claude": "claude-opus-4-8[1m]",
+    "codex": "gpt-5.5"
+  },
+  "backends": {
+    "claude": {
+      "models": [
+        {
+          "id": "claude-fable-5",
+          "label": "Claude Fable 5",
+          "recommended": true,
+          "supports_fast": false,
+          "supports_images": true,
+          "supports_thinking": true
+        },
+        {
+          "id": "claude-opus-4-8[1m]",
+          "label": "Claude Opus 4.8 (1M)",
+          "fast_id": "claude-opus-4-8[1m]-fast",
+          "supports_fast": true,
+          "supports_images": true,
+          "supports_thinking": true
+        },
+        {
+          "id": "claude-opus-4-7[1m]",
+          "label": "Claude Opus 4.7 (1M)",
+          "fast_id": "claude-opus-4-7[1m]-fast",
+          "supports_fast": true,
+          "supports_images": true,
+          "supports_thinking": true
+        },
+        {
+          "id": "claude-opus-4-6[1m]",
+          "label": "Claude Opus 4.6 (1M)",
+          "fast_id": "claude-opus-4-6[1m]-fast",
+          "supports_fast": true,
+          "supports_images": true,
+          "supports_thinking": true
+        },
+        {
+          "id": "claude-opus-4-5-20251101",
+          "label": "Claude Opus 4.5",
+          "supports_fast": false,
+          "supports_images": true,
+          "supports_thinking": true
+        },
+        {
+          "id": "claude-sonnet-4-6[1m]",
+          "label": "Claude Sonnet 4.6 (1M)",
+          "supports_fast": false,
+          "supports_images": true,
+          "supports_thinking": true
+        },
+        {
+          "id": "haiku",
+          "label": "Claude Haiku",
+          "supports_fast": false,
+          "supports_images": true,
+          "supports_thinking": false
+        }
+      ]
+    },
+    "codex": {
+      "models": [
+        {
+          "id": "gpt-5.5",
+          "label": "GPT 5.5",
+          "fast_id": "gpt-5.5-fast",
+          "recommended": true,
+          "supports_fast": true
+        },
+        {
+          "id": "gpt-5.4",
+          "label": "GPT 5.4",
+          "fast_id": "gpt-5.4-fast",
+          "supports_fast": true
+        },
+        {
+          "id": "gpt-5.4-mini",
+          "label": "GPT 5.4 Mini",
+          "fast_id": "gpt-5.4-mini-fast",
+          "supports_fast": true
+        },
+        {
+          "id": "gpt-5.3",
+          "label": "GPT 5.3",
+          "supports_fast": false
+        },
+        {
+          "id": "gpt-5.3-codex",
+          "label": "GPT 5.3 Codex",
+          "deprecated": true,
+          "supports_fast": false
+        },
+        {
+          "id": "gpt-5.2-codex",
+          "label": "GPT 5.2 Codex",
+          "deprecated": true,
+          "supports_fast": false
+        },
+        {
+          "id": "gpt-5.1-codex-max",
+          "label": "GPT 5.1 Codex Max",
+          "deprecated": true,
+          "supports_fast": false
+        },
+        {
+          "id": "gpt-5.2",
+          "label": "GPT 5.2",
+          "deprecated": true,
+          "supports_fast": false
+        },
+        {
+          "id": "gpt-5.1-codex-mini",
+          "label": "GPT 5.1 Codex Mini",
+          "deprecated": true,
+          "supports_fast": false
+        }
+      ]
+    }
+  }
+}
