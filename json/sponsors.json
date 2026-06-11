@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-09",
+  "updatedAt": "2026-06-10",
   "sources": {
     "repository": "coollabsio/coollabs-cdn",
     "landing": "coollabsio/coolify.io",
@@ -92,6 +92,22 @@
           "docs": {
             "path": "/docs-sponsors/seibert.png",
             "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/seibert.png"
+          }
+        }
+      },
+      {
+        "name": "Contabo",
+        "url": "https://contabo.com",
+        "description": "Cloud VPS & dedicated servers at unbeatable prices",
+        "hugeImageStyle": "width: min(95%, 360px); height: auto; max-height: none;",
+        "tier": "huge",
+        "image": {
+          "key": "contabo.svg",
+          "path": "/sponsors/contabo.svg",
+          "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/contabo.svg",
+          "docs": {
+            "path": "/docs-sponsors/contabo.svg",
+            "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/contabo.svg"
           }
         }
       }
