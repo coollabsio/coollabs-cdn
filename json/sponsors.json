@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-10",
+  "updatedAt": "2026-06-11",
   "sources": {
     "repository": "coollabsio/coollabs-cdn",
     "landing": "coollabsio/coolify.io",
@@ -714,11 +714,22 @@
     ],
     "small": [
       {
+        "name": "Movavi",
+        "url": "https://www.movavi.com/mac.html?utm_source=coolify.io",
+        "description": "Movavi",
+        "tier": "small",
+        "newest": true,
+        "image": {
+          "key": "movavi.png",
+          "path": "/sponsors/movavi.png",
+          "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/movavi.png"
+        }
+      },
+      {
         "name": "ABXY",
         "url": "https://abxylabs.com/?utm_source=coolify.io",
         "description": "ABXY",
         "tier": "small",
-        "newest": true,
         "image": {
           "url": "https://github.com/abxy-labs.png"
         }
