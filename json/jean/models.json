@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-06-09T00:00:00Z",
+  "updated_at": "2026-06-20T00:00:00Z",
   "defaults": {
     "claude": "claude-opus-4-8[1m]",
     "codex": "gpt-5.5"
@@ -25,6 +25,13 @@
           "supports_thinking": true
         },
         {
+          "id": "claude-opus-4-8",
+          "label": "Claude Opus 4.8",
+          "supports_fast": false,
+          "supports_images": true,
+          "supports_thinking": true
+        },
+        {
           "id": "claude-opus-4-7[1m]",
           "label": "Claude Opus 4.7 (1M)",
           "fast_id": "claude-opus-4-7[1m]-fast",
@@ -33,10 +40,24 @@
           "supports_thinking": true
         },
         {
+          "id": "claude-opus-4-7",
+          "label": "Claude Opus 4.7",
+          "supports_fast": false,
+          "supports_images": true,
+          "supports_thinking": true
+        },
+        {
           "id": "claude-opus-4-6[1m]",
           "label": "Claude Opus 4.6 (1M)",
           "fast_id": "claude-opus-4-6[1m]-fast",
           "supports_fast": true,
+          "supports_images": true,
+          "supports_thinking": true
+        },
+        {
+          "id": "claude-opus-4-6",
+          "label": "Claude Opus 4.6",
+          "supports_fast": false,
           "supports_images": true,
           "supports_thinking": true
         },
@@ -50,6 +71,13 @@
         {
           "id": "claude-sonnet-4-6[1m]",
           "label": "Claude Sonnet 4.6 (1M)",
+          "supports_fast": false,
+          "supports_images": true,
+          "supports_thinking": true
+        },
+        {
+          "id": "claude-sonnet-4-6",
+          "label": "Claude Sonnet 4.6",
           "supports_fast": false,
           "supports_images": true,
           "supports_thinking": true
