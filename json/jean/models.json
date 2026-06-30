@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-06-20T00:00:00Z",
+  "updated_at": "2026-06-30T00:00:00Z",
   "defaults": {
     "claude": "claude-opus-4-8[1m]",
     "codex": "gpt-5.5"
@@ -12,6 +12,13 @@
           "id": "claude-fable-5",
           "label": "Claude Fable 5",
           "recommended": true,
+          "supports_fast": false,
+          "supports_images": true,
+          "supports_thinking": true
+        },
+        {
+          "id": "claude-sonnet-5",
+          "label": "Claude Sonnet 5",
           "supports_fast": false,
           "supports_images": true,
           "supports_thinking": true
