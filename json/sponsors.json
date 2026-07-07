@@ -12,15 +12,15 @@
         "name": "Context.dev",
         "url": "https://www.context.dev/",
         "description": "Web scraping API for AI agents",
-        "hugeImageStyle": "width: auto; height: 80px; max-width: 100%;",
+        "hugeImageStyle": "width: min(95%, 360px); height: auto; max-height: none;",
         "tier": "huge",
         "image": {
-          "key": "contextdev.svg",
-          "path": "/sponsors/contextdev.svg",
-          "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/contextdev.svg",
+          "key": "contextdev.png",
+          "path": "/sponsors/contextdev.png",
+          "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/contextdev.png",
           "docs": {
-            "path": "/docs-sponsors/contextdev.svg",
-            "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/contextdev.svg"
+            "path": "/docs-sponsors/contextdev.png",
+            "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/contextdev.png"
           }
         }
       },
@@ -951,6 +951,15 @@
         "_comment": "$40 sponsor for one year: 2026-07-07 to 2027-07-07",
         "image": {
           "url": "https://github.com/puls-digital-group.png"
+        }
+      },
+      {
+        "name": "Jonathan Pereira",
+        "url": "https://github.com/jonathanprl",
+        "description": "Jonathan Pereira",
+        "tier": "small",
+        "image": {
+          "url": "https://github.com/jonathanprl.png"
         }
       },
       {
