@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-25",
+  "updatedAt": "2026-07-07",
   "sources": {
     "repository": "coollabsio/coollabs-cdn",
     "landing": "coollabsio/coolify.io",
@@ -8,6 +8,22 @@
   },
   "tiers": {
     "huge": [
+      {
+        "name": "Context.dev",
+        "url": "https://www.context.dev/",
+        "description": "Web scraping API for AI agents",
+        "hugeImageStyle": "width: auto; height: 80px; max-width: 100%;",
+        "tier": "huge",
+        "image": {
+          "key": "contextdev.svg",
+          "path": "/sponsors/contextdev.svg",
+          "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/contextdev.svg",
+          "docs": {
+            "path": "/docs-sponsors/contextdev.svg",
+            "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/contextdev.svg"
+          }
+        }
+      },
       {
         "name": "SerpAPI",
         "url": "https://serpapi.com",
@@ -925,6 +941,16 @@
           "key": "cirun-logo.png",
           "path": "/sponsors/cirun-logo.png",
           "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/cirun-logo.png"
+        }
+      },
+      {
+        "name": "Puls Digital Group",
+        "url": "https://github.com/puls-digital-group",
+        "description": "Puls Digital Group",
+        "tier": "small",
+        "_comment": "$40 sponsor for one year: 2026-07-07 to 2027-07-07",
+        "image": {
+          "url": "https://github.com/puls-digital-group.png"
         }
       },
       {
