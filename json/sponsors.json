@@ -25,6 +25,22 @@
         }
       },
       {
+        "name": "Ginernet",
+        "url": "https://ginernet.com/",
+        "description": "Hosting powerful servers in Spain",
+        "hugeImageStyle": "width: min(95%, 360px); height: auto; max-height: none;",
+        "tier": "huge",
+        "image": {
+          "key": "ginernet.png",
+          "path": "/sponsors/ginernet.png",
+          "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/sponsors/ginernet.png",
+          "docs": {
+            "path": "/docs-sponsors/ginernet.png",
+            "url": "https://raw.githubusercontent.com/coollabsio/coollabs-cdn/main/images/docs-sponsors/ginernet.png"
+          }
+        }
+      },
+      {
         "name": "SerpAPI",
         "url": "https://serpapi.com",
         "description": "Google Search API — Scrape Google and other search engines from our fast, easy, and complete API.",
