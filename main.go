@@ -14,13 +14,13 @@ import (
 	"time"
 )
 
-//go:embed json/*
+//go:embed all:json
 var jsonFiles embed.FS
 
 //go:embed images/*
 var imageFiles embed.FS
 
-// loadJSONFiles recursively loads all JSON files from the embedded filesystem
+// loadJSONFiles recursively loads all files from the embedded JSON directory.
 func loadJSONFiles(dir, prefix string, files map[string]*fileData, etags map[string]string) error {
 	entries, err := jsonFiles.ReadDir(dir)
 	if err != nil {
@@ -36,8 +36,7 @@ func loadJSONFiles(dir, prefix string, files map[string]*fileData, etags map[str
 			if err := loadJSONFiles(fullPath, newPrefix, files, etags); err != nil {
 				return err
 			}
-		} else if strings.HasSuffix(entry.Name(), ".json") {
-			// Load JSON file
+		} else {
 			content, err := jsonFiles.ReadFile(fullPath)
 			if err != nil {
 				log.Printf("Failed to read embedded file %s: %v", fullPath, err)
@@ -221,50 +220,13 @@ func handleRequest(w http.ResponseWriter, r *http.Request, baseFQDN string, file
 		return
 	}
 
-	// Proxy files from cdn.coolify.io
+	// Serve legacy nightly URLs from the embedded coolify/nightly directory.
+	if strings.HasPrefix(r.URL.Path, "/coolify-nightly/") {
+		r.URL.Path = "/coolify/nightly/" + strings.TrimPrefix(r.URL.Path, "/coolify-nightly/")
+	}
+
+	// The Open Graph image is still hosted by cdn.coolify.io.
 	switch r.URL.Path {
-	case "/coolify/versions.json":
-		proxyFromCoolifyCDN(w, r, "/versions.json")
-		return
-	case "/coolify/upgrade.sh":
-		proxyFromCoolifyCDN(w, r, "/upgrade.sh")
-		return
-	case "/coolify/releases.json":
-		proxyFromCoolifyCDN(w, r, "/releases.json")
-		return
-	case "/coolify-nightly/releases.json":
-		proxyFromCoolifyCDN(w, r, "/nightly/releases.json")
-		return
-	case "/coolify/install.sh":
-		proxyFromCoolifyCDN(w, r, "/install.sh")
-		return
-	case "/coolify/docker-compose.yml":
-		proxyFromCoolifyCDN(w, r, "/docker-compose.yml")
-		return
-	case "/coolify/docker-compose.prod.yml":
-		proxyFromCoolifyCDN(w, r, "/docker-compose.prod.yml")
-		return
-	case "/coolify/.env.production":
-		proxyFromCoolifyCDN(w, r, "/.env.production")
-		return
-	case "/coolify-nightly/docker-compose.yml":
-		proxyFromCoolifyCDN(w, r, "/nightly/docker-compose.yml")
-		return
-	case "/coolify-nightly/docker-compose.prod.yml":
-		proxyFromCoolifyCDN(w, r, "/nightly/docker-compose.prod.yml")
-		return
-	case "/coolify-nightly/.env.production":
-		proxyFromCoolifyCDN(w, r, "/nightly/.env.production")
-		return
-	case "/coolify-nightly/upgrade.sh":
-		proxyFromCoolifyCDN(w, r, "/nightly/upgrade.sh")
-		return
-	case "/coolify-nightly/install.sh":
-		proxyFromCoolifyCDN(w, r, "/nightly/install.sh")
-		return
-	case "/coolify-nightly/versions.json":
-		proxyFromCoolifyCDN(w, r, "/nightly/versions.json")
-		return
 	case "/assets/coolify/og-image.png":
 		proxyFromCoolifyCDN(w, r, "/og-image.png")
 		return
