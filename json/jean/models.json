@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-10T00:00:00Z",
+  "updated_at": "2026-07-11T00:00:00Z",
   "defaults": {
     "claude": "claude-opus-4-8[1m]",
     "codex": "gpt-5.5"
@@ -448,7 +448,7 @@
           "supports_fast": true,
           "reasoning": {
             "type": "effort",
-            "default": "low",
+            "default": "medium",
             "levels": [
               {
                 "value": "low",
@@ -476,7 +476,7 @@
                 "description": "Maximum reasoning depth for the hardest problems"
               },
               {
-                "value": "ultracode",
+                "value": "ultra",
                 "label": "Ultra",
                 "description": "Maximum reasoning with automatic task delegation"
               }
@@ -490,7 +490,7 @@
           "supports_fast": true,
           "reasoning": {
             "type": "effort",
-            "default": "low",
+            "default": "medium",
             "levels": [
               {
                 "value": "low",
@@ -518,7 +518,7 @@
                 "description": "Maximum reasoning depth for the hardest problems"
               },
               {
-                "value": "ultracode",
+                "value": "ultra",
                 "label": "Ultra",
                 "description": "Maximum reasoning with automatic task delegation"
               }
@@ -532,7 +532,7 @@
           "supports_fast": true,
           "reasoning": {
             "type": "effort",
-            "default": "low",
+            "default": "medium",
             "levels": [
               {
                 "value": "low",
@@ -558,11 +558,6 @@
                 "value": "max",
                 "label": "Max",
                 "description": "Maximum reasoning depth for the hardest problems"
-              },
-              {
-                "value": "ultracode",
-                "label": "Ultra",
-                "description": "Maximum reasoning with automatic task delegation"
               }
             ]
           }
