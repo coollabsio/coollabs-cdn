@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-08T00:00:00Z",
+  "updated_at": "2026-07-10T00:00:00Z",
   "defaults": {
     "claude": "claude-opus-4-8[1m]",
     "codex": "gpt-5.5"
@@ -14,14 +14,86 @@
           "recommended": true,
           "supports_fast": false,
           "supports_images": true,
-          "supports_thinking": true
+          "supports_thinking": true,
+          "reasoning": {
+            "type": "effort",
+            "default": "high",
+            "levels": [
+              {
+                "value": "low",
+                "label": "Low",
+                "description": "Light"
+              },
+              {
+                "value": "medium",
+                "label": "Medium",
+                "description": "Moderate"
+              },
+              {
+                "value": "high",
+                "label": "High",
+                "description": "Deep"
+              },
+              {
+                "value": "xhigh",
+                "label": "Extra high",
+                "description": "Extra deep"
+              },
+              {
+                "value": "max",
+                "label": "Max",
+                "description": "No limits"
+              },
+              {
+                "value": "ultracode",
+                "label": "Ultracode",
+                "description": "Extra high + workflows"
+              }
+            ]
+          }
         },
         {
           "id": "claude-sonnet-5",
           "label": "Claude Sonnet 5",
           "supports_fast": false,
           "supports_images": true,
-          "supports_thinking": true
+          "supports_thinking": true,
+          "reasoning": {
+            "type": "effort",
+            "default": "high",
+            "levels": [
+              {
+                "value": "low",
+                "label": "Low",
+                "description": "Light"
+              },
+              {
+                "value": "medium",
+                "label": "Medium",
+                "description": "Moderate"
+              },
+              {
+                "value": "high",
+                "label": "High",
+                "description": "Deep"
+              },
+              {
+                "value": "xhigh",
+                "label": "Extra high",
+                "description": "Extra deep"
+              },
+              {
+                "value": "max",
+                "label": "Max",
+                "description": "No limits"
+              },
+              {
+                "value": "ultracode",
+                "label": "Ultracode",
+                "description": "Extra high + workflows"
+              }
+            ]
+          }
         },
         {
           "id": "claude-opus-4-8[1m]",
@@ -29,14 +101,86 @@
           "fast_id": "claude-opus-4-8[1m]-fast",
           "supports_fast": true,
           "supports_images": true,
-          "supports_thinking": true
+          "supports_thinking": true,
+          "reasoning": {
+            "type": "effort",
+            "default": "high",
+            "levels": [
+              {
+                "value": "low",
+                "label": "Low",
+                "description": "Light"
+              },
+              {
+                "value": "medium",
+                "label": "Medium",
+                "description": "Moderate"
+              },
+              {
+                "value": "high",
+                "label": "High",
+                "description": "Deep"
+              },
+              {
+                "value": "xhigh",
+                "label": "Extra high",
+                "description": "Extra deep"
+              },
+              {
+                "value": "max",
+                "label": "Max",
+                "description": "No limits"
+              },
+              {
+                "value": "ultracode",
+                "label": "Ultracode",
+                "description": "Extra high + workflows"
+              }
+            ]
+          }
         },
         {
           "id": "claude-opus-4-8",
           "label": "Claude Opus 4.8",
           "supports_fast": false,
           "supports_images": true,
-          "supports_thinking": true
+          "supports_thinking": true,
+          "reasoning": {
+            "type": "effort",
+            "default": "high",
+            "levels": [
+              {
+                "value": "low",
+                "label": "Low",
+                "description": "Light"
+              },
+              {
+                "value": "medium",
+                "label": "Medium",
+                "description": "Moderate"
+              },
+              {
+                "value": "high",
+                "label": "High",
+                "description": "Deep"
+              },
+              {
+                "value": "xhigh",
+                "label": "Extra high",
+                "description": "Extra deep"
+              },
+              {
+                "value": "max",
+                "label": "Max",
+                "description": "No limits"
+              },
+              {
+                "value": "ultracode",
+                "label": "Ultracode",
+                "description": "Extra high + workflows"
+              }
+            ]
+          }
         },
         {
           "id": "claude-opus-4-7[1m]",
@@ -44,14 +188,86 @@
           "fast_id": "claude-opus-4-7[1m]-fast",
           "supports_fast": true,
           "supports_images": true,
-          "supports_thinking": true
+          "supports_thinking": true,
+          "reasoning": {
+            "type": "effort",
+            "default": "high",
+            "levels": [
+              {
+                "value": "low",
+                "label": "Low",
+                "description": "Light"
+              },
+              {
+                "value": "medium",
+                "label": "Medium",
+                "description": "Moderate"
+              },
+              {
+                "value": "high",
+                "label": "High",
+                "description": "Deep"
+              },
+              {
+                "value": "xhigh",
+                "label": "Extra high",
+                "description": "Extra deep"
+              },
+              {
+                "value": "max",
+                "label": "Max",
+                "description": "No limits"
+              },
+              {
+                "value": "ultracode",
+                "label": "Ultracode",
+                "description": "Extra high + workflows"
+              }
+            ]
+          }
         },
         {
           "id": "claude-opus-4-7",
           "label": "Claude Opus 4.7",
           "supports_fast": false,
           "supports_images": true,
-          "supports_thinking": true
+          "supports_thinking": true,
+          "reasoning": {
+            "type": "effort",
+            "default": "high",
+            "levels": [
+              {
+                "value": "low",
+                "label": "Low",
+                "description": "Light"
+              },
+              {
+                "value": "medium",
+                "label": "Medium",
+                "description": "Moderate"
+              },
+              {
+                "value": "high",
+                "label": "High",
+                "description": "Deep"
+              },
+              {
+                "value": "xhigh",
+                "label": "Extra high",
+                "description": "Extra deep"
+              },
+              {
+                "value": "max",
+                "label": "Max",
+                "description": "No limits"
+              },
+              {
+                "value": "ultracode",
+                "label": "Ultracode",
+                "description": "Extra high + workflows"
+              }
+            ]
+          }
         },
         {
           "id": "claude-opus-4-6[1m]",
@@ -59,35 +275,160 @@
           "fast_id": "claude-opus-4-6[1m]-fast",
           "supports_fast": true,
           "supports_images": true,
-          "supports_thinking": true
+          "supports_thinking": true,
+          "reasoning": {
+            "type": "effort",
+            "default": "high",
+            "levels": [
+              {
+                "value": "low",
+                "label": "Low",
+                "description": "Light"
+              },
+              {
+                "value": "medium",
+                "label": "Medium",
+                "description": "Moderate"
+              },
+              {
+                "value": "high",
+                "label": "High",
+                "description": "Deep"
+              },
+              {
+                "value": "max",
+                "label": "Max",
+                "description": "No limits"
+              }
+            ]
+          }
         },
         {
           "id": "claude-opus-4-6",
           "label": "Claude Opus 4.6",
           "supports_fast": false,
           "supports_images": true,
-          "supports_thinking": true
+          "supports_thinking": true,
+          "reasoning": {
+            "type": "effort",
+            "default": "high",
+            "levels": [
+              {
+                "value": "low",
+                "label": "Low",
+                "description": "Light"
+              },
+              {
+                "value": "medium",
+                "label": "Medium",
+                "description": "Moderate"
+              },
+              {
+                "value": "high",
+                "label": "High",
+                "description": "Deep"
+              },
+              {
+                "value": "max",
+                "label": "Max",
+                "description": "No limits"
+              }
+            ]
+          }
         },
         {
           "id": "claude-opus-4-5-20251101",
           "label": "Claude Opus 4.5",
           "supports_fast": false,
           "supports_images": true,
-          "supports_thinking": true
+          "supports_thinking": true,
+          "reasoning": {
+            "type": "effort",
+            "default": "high",
+            "levels": [
+              {
+                "value": "low",
+                "label": "Low",
+                "description": "Light"
+              },
+              {
+                "value": "medium",
+                "label": "Medium",
+                "description": "Moderate"
+              },
+              {
+                "value": "high",
+                "label": "High",
+                "description": "Deep"
+              }
+            ]
+          }
         },
         {
           "id": "claude-sonnet-4-6[1m]",
           "label": "Claude Sonnet 4.6 (1M)",
           "supports_fast": false,
           "supports_images": true,
-          "supports_thinking": true
+          "supports_thinking": true,
+          "reasoning": {
+            "type": "effort",
+            "default": "high",
+            "levels": [
+              {
+                "value": "low",
+                "label": "Low",
+                "description": "Light"
+              },
+              {
+                "value": "medium",
+                "label": "Medium",
+                "description": "Moderate"
+              },
+              {
+                "value": "high",
+                "label": "High",
+                "description": "Deep"
+              },
+              {
+                "value": "max",
+                "label": "Max",
+                "description": "No limits"
+              }
+            ]
+          }
         },
         {
           "id": "claude-sonnet-4-6",
           "label": "Claude Sonnet 4.6",
           "supports_fast": false,
           "supports_images": true,
-          "supports_thinking": true
+          "supports_thinking": true,
+          "reasoning": {
+            "type": "effort",
+            "default": "high",
+            "levels": [
+              {
+                "value": "low",
+                "label": "Low",
+                "description": "Light"
+              },
+              {
+                "value": "medium",
+                "label": "Medium",
+                "description": "Moderate"
+              },
+              {
+                "value": "high",
+                "label": "High",
+                "description": "Deep"
+              },
+              {
+                "value": "max",
+                "label": "Max",
+                "description": "No limits"
+              }
+            ]
+          }
         },
         {
           "id": "haiku",
@@ -104,73 +445,415 @@
           "id": "gpt-5.6-sol",
           "label": "GPT 5.6 Sol",
           "fast_id": "gpt-5.6-sol-fast",
-          "supports_fast": true
+          "supports_fast": true,
+          "reasoning": {
+            "type": "effort",
+            "default": "low",
+            "levels": [
+              {
+                "value": "low",
+                "label": "Low",
+                "description": "Fast responses with lighter reasoning"
+              },
+              {
+                "value": "medium",
+                "label": "Medium",
+                "description": "Balances speed and reasoning depth"
+              },
+              {
+                "value": "high",
+                "label": "High",
+                "description": "Greater reasoning depth for complex problems"
+              },
+              {
+                "value": "xhigh",
+                "label": "Extra high",
+                "description": "Extra high reasoning depth for complex problems"
+              },
+              {
+                "value": "max",
+                "label": "Max",
+                "description": "Maximum reasoning depth for the hardest problems"
+              },
+              {
+                "value": "ultracode",
+                "label": "Ultra",
+                "description": "Maximum reasoning with automatic task delegation"
+              }
+            ]
+          }
         },
         {
           "id": "gpt-5.6-terra",
           "label": "GPT 5.6 Terra",
           "fast_id": "gpt-5.6-terra-fast",
-          "supports_fast": true
+          "supports_fast": true,
+          "reasoning": {
+            "type": "effort",
+            "default": "low",
+            "levels": [
+              {
+                "value": "low",
+                "label": "Low",
+                "description": "Fast responses with lighter reasoning"
+              },
+              {
+                "value": "medium",
+                "label": "Medium",
+                "description": "Balances speed and reasoning depth"
+              },
+              {
+                "value": "high",
+                "label": "High",
+                "description": "Greater reasoning depth for complex problems"
+              },
+              {
+                "value": "xhigh",
+                "label": "Extra high",
+                "description": "Extra high reasoning depth for complex problems"
+              },
+              {
+                "value": "max",
+                "label": "Max",
+                "description": "Maximum reasoning depth for the hardest problems"
+              },
+              {
+                "value": "ultracode",
+                "label": "Ultra",
+                "description": "Maximum reasoning with automatic task delegation"
+              }
+            ]
+          }
         },
         {
           "id": "gpt-5.6-luna",
           "label": "GPT 5.6 Luna",
           "fast_id": "gpt-5.6-luna-fast",
-          "supports_fast": true
+          "supports_fast": true,
+          "reasoning": {
+            "type": "effort",
+            "default": "low",
+            "levels": [
+              {
+                "value": "low",
+                "label": "Low",
+                "description": "Fast responses with lighter reasoning"
+              },
+              {
+                "value": "medium",
+                "label": "Medium",
+                "description": "Balances speed and reasoning depth"
+              },
+              {
+                "value": "high",
+                "label": "High",
+                "description": "Greater reasoning depth for complex problems"
+              },
+              {
+                "value": "xhigh",
+                "label": "Extra high",
+                "description": "Extra high reasoning depth for complex problems"
+              },
+              {
+                "value": "max",
+                "label": "Max",
+                "description": "Maximum reasoning depth for the hardest problems"
+              },
+              {
+                "value": "ultracode",
+                "label": "Ultra",
+                "description": "Maximum reasoning with automatic task delegation"
+              }
+            ]
+          }
         },
         {
           "id": "gpt-5.5",
           "label": "GPT 5.5",
           "fast_id": "gpt-5.5-fast",
           "recommended": true,
-          "supports_fast": true
+          "supports_fast": true,
+          "reasoning": {
+            "type": "effort",
+            "default": "high",
+            "levels": [
+              {
+                "value": "low",
+                "label": "Low",
+                "description": "Light"
+              },
+              {
+                "value": "medium",
+                "label": "Medium",
+                "description": "Moderate"
+              },
+              {
+                "value": "high",
+                "label": "High",
+                "description": "Deep"
+              },
+              {
+                "value": "xhigh",
+                "label": "Extra high",
+                "description": "Extra deep"
+              }
+            ]
+          }
         },
         {
           "id": "gpt-5.4",
           "label": "GPT 5.4",
           "fast_id": "gpt-5.4-fast",
-          "supports_fast": true
+          "supports_fast": true,
+          "reasoning": {
+            "type": "effort",
+            "default": "high",
+            "levels": [
+              {
+                "value": "low",
+                "label": "Low",
+                "description": "Light"
+              },
+              {
+                "value": "medium",
+                "label": "Medium",
+                "description": "Moderate"
+              },
+              {
+                "value": "high",
+                "label": "High",
+                "description": "Deep"
+              },
+              {
+                "value": "xhigh",
+                "label": "Extra high",
+                "description": "Extra deep"
+              }
+            ]
+          }
         },
         {
           "id": "gpt-5.4-mini",
           "label": "GPT 5.4 Mini",
           "fast_id": "gpt-5.4-mini-fast",
-          "supports_fast": true
+          "supports_fast": true,
+          "reasoning": {
+            "type": "effort",
+            "default": "high",
+            "levels": [
+              {
+                "value": "low",
+                "label": "Low",
+                "description": "Light"
+              },
+              {
+                "value": "medium",
+                "label": "Medium",
+                "description": "Moderate"
+              },
+              {
+                "value": "high",
+                "label": "High",
+                "description": "Deep"
+              },
+              {
+                "value": "xhigh",
+                "label": "Extra high",
+                "description": "Extra deep"
+              }
+            ]
+          }
         },
         {
           "id": "gpt-5.3",
           "label": "GPT 5.3",
-          "supports_fast": false
+          "supports_fast": false,
+          "reasoning": {
+            "type": "effort",
+            "default": "high",
+            "levels": [
+              {
+                "value": "low",
+                "label": "Low",
+                "description": "Light"
+              },
+              {
+                "value": "medium",
+                "label": "Medium",
+                "description": "Moderate"
+              },
+              {
+                "value": "high",
+                "label": "High",
+                "description": "Deep"
+              },
+              {
+                "value": "xhigh",
+                "label": "Extra high",
+                "description": "Extra deep"
+              }
+            ]
+          }
         },
         {
           "id": "gpt-5.3-codex",
           "label": "GPT 5.3 Codex",
           "deprecated": true,
-          "supports_fast": false
+          "supports_fast": false,
+          "reasoning": {
+            "type": "effort",
+            "default": "high",
+            "levels": [
+              {
+                "value": "low",
+                "label": "Low",
+                "description": "Light"
+              },
+              {
+                "value": "medium",
+                "label": "Medium",
+                "description": "Moderate"
+              },
+              {
+                "value": "high",
+                "label": "High",
+                "description": "Deep"
+              },
+              {
+                "value": "xhigh",
+                "label": "Extra high",
+                "description": "Extra deep"
+              }
+            ]
+          }
         },
         {
           "id": "gpt-5.2-codex",
           "label": "GPT 5.2 Codex",
           "deprecated": true,
-          "supports_fast": false
+          "supports_fast": false,
+          "reasoning": {
+            "type": "effort",
+            "default": "high",
+            "levels": [
+              {
+                "value": "low",
+                "label": "Low",
+                "description": "Light"
+              },
+              {
+                "value": "medium",
+                "label": "Medium",
+                "description": "Moderate"
+              },
+              {
+                "value": "high",
+                "label": "High",
+                "description": "Deep"
+              },
+              {
+                "value": "xhigh",
+                "label": "Extra high",
+                "description": "Extra deep"
+              }
+            ]
+          }
         },
         {
           "id": "gpt-5.1-codex-max",
           "label": "GPT 5.1 Codex Max",
           "deprecated": true,
-          "supports_fast": false
+          "supports_fast": false,
+          "reasoning": {
+            "type": "effort",
+            "default": "high",
+            "levels": [
+              {
+                "value": "low",
+                "label": "Low",
+                "description": "Light"
+              },
+              {
+                "value": "medium",
+                "label": "Medium",
+                "description": "Moderate"
+              },
+              {
+                "value": "high",
+                "label": "High",
+                "description": "Deep"
+              },
+              {
+                "value": "xhigh",
+                "label": "Extra high",
+                "description": "Extra deep"
+              }
+            ]
+          }
         },
         {
           "id": "gpt-5.2",
           "label": "GPT 5.2",
           "deprecated": true,
-          "supports_fast": false
+          "supports_fast": false,
+          "reasoning": {
+            "type": "effort",
+            "default": "high",
+            "levels": [
+              {
+                "value": "low",
+                "label": "Low",
+                "description": "Light"
+              },
+              {
+                "value": "medium",
+                "label": "Medium",
+                "description": "Moderate"
+              },
+              {
+                "value": "high",
+                "label": "High",
+                "description": "Deep"
+              },
+              {
+                "value": "xhigh",
+                "label": "Extra high",
+                "description": "Extra deep"
+              }
+            ]
+          }
         },
         {
           "id": "gpt-5.1-codex-mini",
           "label": "GPT 5.1 Codex Mini",
           "deprecated": true,
-          "supports_fast": false
+          "supports_fast": false,
+          "reasoning": {
+            "type": "effort",
+            "default": "high",
+            "levels": [
+              {
+                "value": "low",
+                "label": "Low",
+                "description": "Light"
+              },
+              {
+                "value": "medium",
+                "label": "Medium",
+                "description": "Moderate"
+              },
+              {
+                "value": "high",
+                "label": "High",
+                "description": "Deep"
+              },
+              {
+                "value": "xhigh",
+                "label": "Extra high",
+                "description": "Extra deep"
+              }
+            ]
+          }
         }
       ]
     }
