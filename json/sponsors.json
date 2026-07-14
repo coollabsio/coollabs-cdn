@@ -971,11 +971,13 @@
       },
       {
         "name": "Jonathan Pereira",
-        "url": "https://github.com/jonathanprl",
+        "url": "https://low.ms/",
         "description": "Jonathan Pereira",
         "tier": "small",
         "image": {
-          "url": "https://github.com/jonathanprl.png"
+          "key": "lowms.png",
+          "path": "/sponsors/lowms.png",
+          "url": "https://cdn.coollabs.io/sponsors/lowms.png"
         }
       },
       {
