@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-11T00:00:00Z",
+  "updated_at": "2026-07-24T00:00:00Z",
   "defaults": {
     "claude": "claude-opus-4-8[1m]",
     "codex": "gpt-5.5"
@@ -12,6 +12,49 @@
           "id": "claude-fable-5",
           "label": "Claude Fable 5",
           "recommended": true,
+          "supports_fast": false,
+          "supports_images": true,
+          "supports_thinking": true,
+          "reasoning": {
+            "type": "effort",
+            "default": "high",
+            "levels": [
+              {
+                "value": "low",
+                "label": "Low",
+                "description": "Light"
+              },
+              {
+                "value": "medium",
+                "label": "Medium",
+                "description": "Moderate"
+              },
+              {
+                "value": "high",
+                "label": "High",
+                "description": "Deep"
+              },
+              {
+                "value": "xhigh",
+                "label": "Extra high",
+                "description": "Extra deep"
+              },
+              {
+                "value": "max",
+                "label": "Max",
+                "description": "No limits"
+              },
+              {
+                "value": "ultracode",
+                "label": "Ultracode",
+                "description": "Extra high + workflows"
+              }
+            ]
+          }
+        },
+        {
+          "id": "claude-opus-5",
+          "label": "Claude Opus 5",
           "supports_fast": false,
           "supports_images": true,
           "supports_thinking": true,
