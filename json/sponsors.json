@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-07",
+  "updatedAt": "2026-08-02",
   "sources": {
     "repository": "coollabsio/coollabs-cdn",
     "landing": "coollabsio/coolify.io",
@@ -43,7 +43,7 @@
       {
         "name": "SerpAPI",
         "url": "https://serpapi.com",
-        "description": "Google Search API — Scrape Google and other search engines from our fast, easy, and complete API.",
+        "description": "Google Search API \u2014 Scrape Google and other search engines from our fast, easy, and complete API.",
         "hugeImageStyle": "width: auto; height: 80px; max-width: 100%;",
         "tier": "huge",
         "offPlatform": {
@@ -397,7 +397,7 @@
       {
         "name": "Comit International",
         "url": "https://comit.international",
-        "description": "New York Times award–winning contractor!",
+        "description": "New York Times award\u2013winning contractor!",
         "tier": "big",
         "image": {
           "key": "comit.svg",
@@ -978,6 +978,15 @@
           "key": "lowms.png",
           "path": "/sponsors/lowms.png",
           "url": "https://cdn.coollabs.io/sponsors/lowms.png"
+        }
+      },
+      {
+        "name": "T4DT GmbH",
+        "url": "https://github.com/t4dt",
+        "description": "T4DT GmbH",
+        "tier": "small",
+        "image": {
+          "url": "https://github.com/t4dt.png"
         }
       },
       {
