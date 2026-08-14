@@ -988,6 +988,15 @@
         }
       },
       {
+        "name": "OutboundGateway",
+        "url": "https://outboundgateway.com/",
+        "description": "OutboundGateway",
+        "tier": "small",
+        "image": {
+          "url": "https://github.com/OutboundGateway.png"
+        }
+      },
+      {
         "name": "T4DT GmbH",
         "url": "https://github.com/t4dt",
         "description": "T4DT GmbH",
