@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-10",
+  "updatedAt": "2026-08-14",
   "sources": {
     "repository": "coollabsio/coollabs-cdn",
     "landing": "coollabsio/coolify.io",
@@ -8,6 +8,22 @@
   },
   "tiers": {
     "huge": [
+      {
+        "name": "CubePath",
+        "url": "https://cubepath.com/as",
+        "description": "Premium dedicated servers and cloud VPS hosting",
+        "hugeImageStyle": "width: min(95%, 360px); height: auto; max-height: none;",
+        "tier": "huge",
+        "image": {
+          "key": "cubepath.png",
+          "path": "/sponsors/cubepath.png",
+          "url": "https://cdn.coollabs.io/sponsors/cubepath.png",
+          "docs": {
+            "path": "/docs-sponsors/cubepath.png",
+            "url": "https://cdn.coollabs.io/docs-sponsors/cubepath.png"
+          }
+        }
+      },
       {
         "name": "Context.dev",
         "url": "https://www.context.dev/",
