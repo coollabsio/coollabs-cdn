@@ -10,7 +10,7 @@
     "huge": [
       {
         "name": "CubePath",
-        "url": "https://cubepath.com/as",
+        "url": "https://cubepath.com",
         "description": "Premium dedicated servers and cloud VPS hosting",
         "hugeImageStyle": "width: min(95%, 360px); height: auto; max-height: none;",
         "tier": "huge",
