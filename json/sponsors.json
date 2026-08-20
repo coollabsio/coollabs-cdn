@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-14",
+  "updatedAt": "2026-08-20",
   "sources": {
     "repository": "coollabsio/coollabs-cdn",
     "landing": "coollabsio/coolify.io",
@@ -727,6 +727,26 @@
       }
     ],
     "small": [
+      {
+        "name": "Vortex PCs Ltd",
+        "url": "https://github.com/vortexpcsltd-afk",
+        "description": "Vortex PCs Ltd",
+        "tier": "small",
+        "_comment": "$40 sponsor",
+        "image": {
+          "url": "https://github.com/vortexpcsltd-afk.png"
+        }
+      },
+      {
+        "name": "Onserva",
+        "url": "https://onserva.com/",
+        "description": "Server monitoring that speaks plain English",
+        "tier": "small",
+        "_comment": "$40 sponsor",
+        "image": {
+          "url": "https://onserva.com/icon.svg"
+        }
+      },
       {
         "name": "Movavi",
         "url": "https://www.movavi.com/mac.html?utm_source=coolify.io",
