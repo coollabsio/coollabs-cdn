@@ -162,6 +162,21 @@
     ],
     "big": [
       {
+        "name": "Vanaways",
+        "url": "https://www.vanaways.co.uk",
+        "description": "New vans for sale and lease across the UK",
+        "tier": "big",
+        "image": {
+          "key": "vanaways.svg",
+          "path": "/sponsors/vanaways.svg",
+          "url": "https://cdn.coollabs.io/sponsors/vanaways.svg",
+          "docs": {
+            "path": "/docs-sponsors/vanaways.png",
+            "url": "https://cdn.coollabs.io/docs-sponsors/vanaways.png"
+          }
+        }
+      },
+      {
         "name": "Cloudways",
         "url": "https://www.cloudways.com/en/?id=2125302",
         "description": "Managed cloud hosting platform by DigitalOcean",
