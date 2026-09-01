@@ -743,16 +743,6 @@
     ],
     "small": [
       {
-        "name": "Vortex PCs Ltd",
-        "url": "https://github.com/vortexpcsltd-afk",
-        "description": "Vortex PCs Ltd",
-        "tier": "small",
-        "_comment": "$40 sponsor",
-        "image": {
-          "url": "https://github.com/vortexpcsltd-afk.png"
-        }
-      },
-      {
         "name": "Onserva",
         "url": "https://onserva.com/",
         "description": "Server monitoring that speaks plain English",
