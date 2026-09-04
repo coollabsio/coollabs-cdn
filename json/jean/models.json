@@ -555,6 +555,16 @@
                 "value": "xhigh",
                 "label": "Extra high",
                 "description": "Extra high reasoning depth for complex problems"
+              },
+              {
+                "value": "max",
+                "label": "Max",
+                "description": "Maximum reasoning depth for the hardest problems"
+              },
+              {
+                "value": "ultra",
+                "label": "Ultra",
+                "description": "Maximum reasoning with automatic task delegation"
               }
             ]
           }
