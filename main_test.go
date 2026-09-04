@@ -36,6 +36,34 @@ func TestJeanModelCatalogIncludesFable51(t *testing.T) {
 	t.Fatal("expected Claude Fable 5.1 in Jean model catalog")
 }
 
+func TestJeanModelCatalogIncludesGpt6Astra(t *testing.T) {
+	content, err := jsonFiles.ReadFile("json/jean/models.json")
+	if err != nil {
+		t.Fatal(err)
+	}
+
+	var catalog struct {
+		Backends struct {
+			Codex struct {
+				Models []struct {
+					ID    string `json:"id"`
+					Label string `json:"label"`
+				} `json:"models"`
+			} `json:"codex"`
+		} `json:"backends"`
+	}
+	if err := json.Unmarshal(content, &catalog); err != nil {
+		t.Fatal(err)
+	}
+
+	for _, model := range catalog.Backends.Codex.Models {
+		if model.ID == "gpt-6-astra" && model.Label == "GPT 6 Astra" {
+			return
+		}
+	}
+	t.Fatal("expected GPT 6 Astra in Jean model catalog")
+}
+
 func TestLoadJSONFilesIncludesCoolifyArtifacts(t *testing.T) {
 	files := make(map[string]*fileData)
 	etags := make(map[string]string)

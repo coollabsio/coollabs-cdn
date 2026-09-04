@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-01T00:00:00Z",
+  "updated_at": "2026-09-04T00:00:00Z",
   "defaults": {
     "claude": "claude-opus-4-8[1m]",
     "codex": "gpt-5.5"
@@ -528,6 +528,38 @@
     "codex": {
       "models": [
         {
+          "id": "gpt-6-astra",
+          "label": "GPT 6 Astra",
+          "recommended": true,
+          "supports_fast": false,
+          "reasoning": {
+            "type": "effort",
+            "default": "medium",
+            "levels": [
+              {
+                "value": "low",
+                "label": "Low",
+                "description": "Fast responses with lighter reasoning"
+              },
+              {
+                "value": "medium",
+                "label": "Medium",
+                "description": "Balances speed and reasoning depth"
+              },
+              {
+                "value": "high",
+                "label": "High",
+                "description": "Greater reasoning depth for complex problems"
+              },
+              {
+                "value": "xhigh",
+                "label": "Extra high",
+                "description": "Extra high reasoning depth for complex problems"
+              }
+            ]
+          }
+        },
+        {
           "id": "gpt-5.6-sol",
           "label": "GPT 5.6 Sol",
           "fast_id": "gpt-5.6-sol-fast",
@@ -652,7 +684,6 @@
           "id": "gpt-5.5",
           "label": "GPT 5.5",
           "fast_id": "gpt-5.5-fast",
-          "recommended": true,
           "supports_fast": true,
           "reasoning": {
             "type": "effort",
