@@ -936,15 +936,6 @@
         }
       },
       {
-        "name": "Crypto Jobs List",
-        "url": "https://cryptojobslist.com/?utm_source=coolify.io",
-        "description": "Crypto Jobs List",
-        "tier": "small",
-        "image": {
-          "url": "https://github.com/cryptojobslist.png"
-        }
-      },
-      {
         "name": "SerpAPI",
         "url": "https://serpapi.com/?utm_source=coolify.io",
         "description": "SerpAPI",
