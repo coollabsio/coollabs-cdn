@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-20",
+  "updatedAt": "2026-09-11",
   "sources": {
     "repository": "coollabsio/coollabs-cdn",
     "landing": "coollabsio/coolify.io",
@@ -742,6 +742,16 @@
       }
     ],
     "small": [
+      {
+        "name": "Shivam",
+        "url": "https://github.com/notifyShivam",
+        "description": "Shivam",
+        "tier": "small",
+        "_comment": "$40 sponsor for one month: 2026-09-11 to 2026-10-11",
+        "image": {
+          "url": "https://github.com/notifyShivam.png"
+        }
+      },
       {
         "name": "Onserva",
         "url": "https://onserva.com/",
