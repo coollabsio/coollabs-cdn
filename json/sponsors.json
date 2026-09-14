@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-11",
+  "updatedAt": "2026-09-14",
   "sources": {
     "repository": "coollabsio/coollabs-cdn",
     "landing": "coollabsio/coolify.io",
@@ -742,6 +742,18 @@
       }
     ],
     "small": [
+      {
+        "name": "DarkVPS",
+        "url": "https://darkvps.pro",
+        "description": "DarkVPS",
+        "tier": "small",
+        "_comment": "$40 sponsor",
+        "image": {
+          "key": "darkvps.png",
+          "path": "/sponsors/darkvps.png",
+          "url": "https://cdn.coollabs.io/sponsors/darkvps.png"
+        }
+      },
       {
         "name": "Shivam",
         "url": "https://github.com/notifyShivam",
