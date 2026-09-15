@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-14",
+  "updatedAt": "2026-09-15",
   "sources": {
     "repository": "coollabsio/coollabs-cdn",
     "landing": "coollabsio/coolify.io",
@@ -761,7 +761,9 @@
         "tier": "small",
         "_comment": "$40 sponsor for one month: 2026-09-11 to 2026-10-11",
         "image": {
-          "url": "https://www.opensourcealternatives.to/logo.png"
+          "key": "opensourcealternatives.png",
+          "path": "/sponsors/opensourcealternatives.png",
+          "url": "https://cdn.coollabs.io/sponsors/opensourcealternatives.png"
         }
       },
       {
