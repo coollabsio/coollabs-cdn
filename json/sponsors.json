@@ -755,13 +755,13 @@
         }
       },
       {
-        "name": "Shivam",
-        "url": "https://github.com/notifyShivam",
-        "description": "Shivam",
+        "name": "Open Source Alternatives",
+        "url": "https://www.opensourcealternatives.to",
+        "description": "Discover open source alternatives to popular software",
         "tier": "small",
         "_comment": "$40 sponsor for one month: 2026-09-11 to 2026-10-11",
         "image": {
-          "url": "https://github.com/notifyShivam.png"
+          "url": "https://www.opensourcealternatives.to/logo.png"
         }
       },
       {
