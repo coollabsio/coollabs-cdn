@@ -640,22 +640,6 @@
         }
       },
       {
-        "name": "LiquidWeb",
-        "url": "https://liquidweb.com",
-        "description": "Premium managed hosting solutions",
-        "tier": "big",
-        "image": {
-          "key": "liquid.svg",
-          "path": "/sponsors/liquid.svg",
-          "url": "https://cdn.coollabs.io/sponsors/liquid.svg",
-          "docs": {
-            "key": "liquidweb.webp",
-            "path": "/docs-sponsors/liquidweb.webp",
-            "url": "https://cdn.coollabs.io/docs-sponsors/liquidweb.webp"
-          }
-        }
-      },
-      {
         "name": "Greptile",
         "url": "https://www.greptile.com",
         "description": "The AI Code Reviewer",
