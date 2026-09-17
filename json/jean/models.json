@@ -755,38 +755,6 @@
           }
         },
         {
-          "id": "gpt-5.4-mini",
-          "label": "GPT 5.4 Mini",
-          "fast_id": "gpt-5.4-mini-fast",
-          "supports_fast": true,
-          "reasoning": {
-            "type": "effort",
-            "default": "high",
-            "levels": [
-              {
-                "value": "low",
-                "label": "Low",
-                "description": "Light"
-              },
-              {
-                "value": "medium",
-                "label": "Medium",
-                "description": "Moderate"
-              },
-              {
-                "value": "high",
-                "label": "High",
-                "description": "Deep"
-              },
-              {
-                "value": "xhigh",
-                "label": "Extra high",
-                "description": "Extra deep"
-              }
-            ]
-          }
-        },
-        {
           "id": "gpt-5.3",
           "label": "GPT 5.3",
           "supports_fast": false,
