@@ -1,5 +1,48 @@
 [
     {
+        "url": "https://api.github.com/repos/coollabsio/coolify/releases/391440471",
+        "assets_url": "https://api.github.com/repos/coollabsio/coolify/releases/391440471/assets",
+        "upload_url": "https://uploads.github.com/repos/coollabsio/coolify/releases/391440471/assets{?name,label}",
+        "html_url": "https://github.com/coollabsio/coolify/releases/tag/v4.3.22",
+        "id": 391440471,
+        "author": {
+            "login": "andrasbacsai",
+            "id": 5845193,
+            "node_id": "MDQ6VXNlcjU4NDUxOTM=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5845193?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/andrasbacsai",
+            "html_url": "https://github.com/andrasbacsai",
+            "followers_url": "https://api.github.com/users/andrasbacsai/followers",
+            "following_url": "https://api.github.com/users/andrasbacsai/following{/other_user}",
+            "gists_url": "https://api.github.com/users/andrasbacsai/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/andrasbacsai/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/andrasbacsai/subscriptions",
+            "organizations_url": "https://api.github.com/users/andrasbacsai/orgs",
+            "repos_url": "https://api.github.com/users/andrasbacsai/repos",
+            "events_url": "https://api.github.com/users/andrasbacsai/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/andrasbacsai/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "node_id": "RE_kwDOE9dbMc4XVOhX",
+        "tag_name": "v4.3.22",
+        "target_commitish": "19949a6f6f860985a5ffb7d32d20f426bb408946",
+        "name": "v4.3.22",
+        "draft": false,
+        "immutable": false,
+        "prerelease": false,
+        "created_at": "2026-09-18T11:56:40Z",
+        "updated_at": "2026-09-18T12:02:18Z",
+        "published_at": "2026-09-18T12:02:18Z",
+        "assets": [],
+        "tarball_url": "https://api.github.com/repos/coollabsio/coolify/tarball/v4.3.22",
+        "zipball_url": "https://api.github.com/repos/coollabsio/coolify/zipball/v4.3.22",
+        "body": "## Breaking Changes\r\n\r\n- Removed host-path configuration for persistent volumes from the UI and API. API requests that include `host_path` are now rejected.\r\n\r\n## Features\r\n\r\n- Added a pull request settings modal with refresh and deployment controls for preview deployments.\r\n- Added real-time Sentinel synchronization status across server and application views.\r\n- Added separate options to delete local and S3 archives when a volume backup schedule was removed.\r\n\r\n## Fixes\r\n\r\n- Generated separate Traefik rules for comma-separated Docker Compose preview domains, which fixed broken preview routing ([#11812](https://github.com/coollabsio/coolify/pull/11812), closed [#7915](https://github.com/coollabsio/coolify/issues/7915)).\r\n- Fell back to the system DNS resolver when configured resolvers returned no address records ([#11811](https://github.com/coollabsio/coolify/pull/11811), closed [#11810](https://github.com/coollabsio/coolify/issues/11810)).\r\n- Preserved whitespace in streamed command output, which prevented Docker Compose argument injection from corrupting Dockerfiles ([#11466](https://github.com/coollabsio/coolify/pull/11466), closed [#11386](https://github.com/coollabsio/coolify/issues/11386)).\r\n- Preserved pull request filters in deployment history and showed the active filter.\r\n- Redirected team switches to the dashboard to prevent invalid cross-team pages.\r\n\r\n## Improvements\r\n\r\n- Made scheduled tasks, database backups, volume backups, and Docker cleanups execute only once per occurrence across distributed schedulers.\r\n- Improved volume backup execution details and archive actions on mobile devices.\r\n- Simplified persistent storage controls and kept volume actions on one line.\r\n\r\n## What's Changed\r\n* fix(previews): split compose domains into Traefik labels by @andrasbacsai in https://github.com/coollabsio/coolify/pull/11812\r\n* fix(dns): fall back to system resolver by @andrasbacsai in https://github.com/coollabsio/coolify/pull/11811\r\n* fix(deployments): preserve whitespace in saved command output by @andrasbacsai in https://github.com/coollabsio/coolify/pull/11466\r\n* chore: merge main into next by @github-actions[bot] in https://github.com/coollabsio/coolify/pull/11866\r\n\r\n\r\n**Full Changelog**: https://github.com/coollabsio/coolify/compare/v4.3.21...v4.3.22",
+        "mentions_count": 1
+    },
+    {
         "url": "https://api.github.com/repos/coollabsio/coolify/releases/389094105",
         "assets_url": "https://api.github.com/repos/coollabsio/coolify/releases/389094105/assets",
         "upload_url": "https://uploads.github.com/repos/coollabsio/coolify/releases/389094105/assets{?name,label}",
@@ -34,12 +77,24 @@
         "immutable": false,
         "prerelease": false,
         "created_at": "2026-09-15T11:28:50Z",
-        "updated_at": "2026-09-15T11:41:19Z",
+        "updated_at": "2026-09-15T12:39:30Z",
         "published_at": "2026-09-15T11:41:19Z",
         "assets": [],
         "tarball_url": "https://api.github.com/repos/coollabsio/coolify/tarball/v4.3.21",
         "zipball_url": "https://api.github.com/repos/coollabsio/coolify/zipball/v4.3.21",
-        "body": "## Features\r\n\r\n- Made restart limits opt-in for applications, preview deployments, and service applications. Existing resources that still used the previous limit of 10 restarts were reset to unlimited.\r\n\r\n## Fixes\r\n\r\n- Hid application names, server names, deployment URLs, team member emails, and job IDs from the Helper deployment check unless detailed output was explicitly requested.\r\n\r\n## Improvements\r\n\r\n- Updated the supported Traefik patch releases to 3.7.13, 3.6.25, and 2.11.57.\r\n\r\n**Full Changelog**: https://github.com/coollabsio/coolify/compare/v4.3.20...v4.3.21\r\n\r\n**Full Changelog**: https://github.com/coollabsio/coolify/compare/v4.3.20...v4.3.21"
+        "body": "## Features\r\n\r\n- Made restart limits opt-in for applications, preview deployments, and service applications. Existing resources that still used the previous limit of 10 restarts were reset to unlimited.\r\n\r\n## Fixes\r\n\r\n- Hid application names, server names, deployment URLs, team member emails, and job IDs from the Helper deployment check unless detailed output was explicitly requested.\r\n\r\n## Improvements\r\n\r\n- Updated the supported Traefik patch releases to 3.7.13, 3.6.25, and 2.11.57.\r\n\r\n**Full Changelog**: https://github.com/coollabsio/coolify/compare/v4.3.20...v4.3.21",
+        "reactions": {
+            "url": "https://api.github.com/repos/coollabsio/coolify/releases/389094105/reactions",
+            "total_count": 6,
+            "+1": 4,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 2,
+            "eyes": 0
+        }
     },
     {
         "url": "https://api.github.com/repos/coollabsio/coolify/releases/388487723",
@@ -84,14 +139,14 @@
         "body": "## Features\r\n\r\n- Added an **All** option to the log viewer and accepted `lines=all` across application, database, and service log APIs. The existing `-1` value remained available for compatibility.\r\n\r\n## Fixes\r\n\r\n- Fixed scheduled backup deletion for service databases so it kept the database context and returned to the correct backup page.\r\n- Preserved each service component\u2019s stored application or database type when generating Traefik labels.\r\n- Restored hourly Sentinel version checks for enabled, eligible servers while continuing to exclude build servers.\r\n\r\n## Improvements\r\n\r\n- Ran Traefik version checks whenever Coolify checked for updates instead of only once a week.\r\n- Updated Coolify Helper to 1.0.17 and moved the bundled MinIO client to a pinned AIStor release.\r\n\r\n**Full Changelog**: https://github.com/coollabsio/coolify/compare/v4.3.19...v4.3.20",
         "reactions": {
             "url": "https://api.github.com/repos/coollabsio/coolify/releases/388487723/reactions",
-            "total_count": 2,
-            "+1": 1,
+            "total_count": 6,
+            "+1": 3,
             "-1": 0,
             "laugh": 0,
             "hooray": 1,
             "confused": 0,
             "heart": 0,
-            "rocket": 0,
+            "rocket": 2,
             "eyes": 0
         }
     },
@@ -138,7 +193,7 @@
         "body": "## Breaking Changes (well not breaking, but kinda, not sure haha)\r\n\r\n- Made Sentinel mandatory on regular servers. Existing regular servers were enabled automatically, and the enable or disable setting became read-only in the UI and API. This is mandatory for upcoming features. Sentinel will have a bigger responsibility.\r\n\r\n## Features\r\n\r\n- Restored each user's last active team after login and added a team picker when no saved team was available. ([#11503](https://github.com/coollabsio/coolify/pull/11503))\r\n- Moved service application and database settings into a modal and added Docker restart-limit settings, including API support for `max_restart_count`.\r\n- Added indexing, redirect, and hostname regeneration controls to application, preview, and service domain editors.\r\n\r\n## Fixes\r\n\r\n- Prevented duplicate two-factor challenge submissions and redirected stale authenticated submissions instead of returning HTTP 419. ([#11223](https://github.com/coollabsio/coolify/pull/11223), closed [#10670](https://github.com/coollabsio/coolify/issues/10670) and [#10731](https://github.com/coollabsio/coolify/issues/10731))\r\n- Accepted custom usernames in SCP-style SSH Git URLs across source setup, API creation, webhooks, clones, and repository links. ([#11685](https://github.com/coollabsio/coolify/pull/11685), closed [#11686](https://github.com/coollabsio/coolify/issues/11686))\r\n- Accepted uppercase letters in existing S3-compatible bucket names. (closed [#11536](https://github.com/coollabsio/coolify/issues/11536))\r\n- Detected Docker Compose domain conflicts across service domains and treated HTTP and HTTPS forms as the same routing identity.\r\n- Preserved inherited service ports instead of saving them as overrides, and ignored hostless URLs when deployments calculated port overrides.\r\n- Saved Compose environment files atomically to prevent partial writes and truncated files.\r\n- Made the \"Restart Limit Reached\" email notification toggle work. (closed [#11705](https://github.com/coollabsio/coolify/issues/11705))\r\n- Distinguished same-named application containers on different servers in the terminal.\r\n- Fixed sidebar preference handling, application domain display, two-factor status display, and duplicate metrics status badges.\r\n\r\n## Improvements\r\n\r\n- Pulled image-based Docker Compose services before stopping the current deployment, which reduced downtime and stopped deployments early when an image pull failed.\r\n- Improved domain editing and queued DNS checks across applications, previews, and services. DNS checks now ran only after relevant hostname or scheme changes.\r\n- Improved mobile application settings navigation, pinned domain save controls, compacted service domain cards, and made view controls consistent.\r\n- Improved the environment variable editor, modal scrolling, button loading states, and backup settings layouts.\r\n- Upgraded Sentinel from 0.0.22 to 1.0.1.\r\n\r\n## What's Changed\r\n* fix: prevent duplicate 2FA challenge submissions causing HTTP 419 by @PRSFM in https://github.com/coollabsio/coolify/pull/11223\r\n* feat(teams): persist active team and add team selection screen by @adiologydev in https://github.com/coollabsio/coolify/pull/11503\r\n* fix: support generic SSH Git usernames by @Marmelatze in https://github.com/coollabsio/coolify/pull/11685\r\n\r\n## New Contributors\r\n* @PRSFM made their first contribution in https://github.com/coollabsio/coolify/pull/11223\r\n* @Marmelatze made their first contribution in https://github.com/coollabsio/coolify/pull/11685\r\n\r\n**Full Changelog**: https://github.com/coollabsio/coolify/compare/v4.3.18...v4.3.19",
         "reactions": {
             "url": "https://api.github.com/repos/coollabsio/coolify/releases/386418961/reactions",
-            "total_count": 13,
+            "total_count": 14,
             "+1": 0,
             "-1": 0,
             "laugh": 2,
@@ -146,7 +201,7 @@
             "confused": 0,
             "heart": 0,
             "rocket": 5,
-            "eyes": 6
+            "eyes": 7
         },
         "mentions_count": 3
     },
@@ -1551,60 +1606,5 @@
             "eyes": 0
         },
         "mentions_count": 8
-    },
-    {
-        "url": "https://api.github.com/repos/coollabsio/coolify/releases/308245253",
-        "assets_url": "https://api.github.com/repos/coollabsio/coolify/releases/308245253/assets",
-        "upload_url": "https://uploads.github.com/repos/coollabsio/coolify/releases/308245253/assets{?name,label}",
-        "html_url": "https://github.com/coollabsio/coolify/releases/tag/v4.0.0-beta.473",
-        "id": 308245253,
-        "author": {
-            "login": "andrasbacsai",
-            "id": 5845193,
-            "node_id": "MDQ6VXNlcjU4NDUxOTM=",
-            "avatar_url": "https://avatars.githubusercontent.com/u/5845193?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/andrasbacsai",
-            "html_url": "https://github.com/andrasbacsai",
-            "followers_url": "https://api.github.com/users/andrasbacsai/followers",
-            "following_url": "https://api.github.com/users/andrasbacsai/following{/other_user}",
-            "gists_url": "https://api.github.com/users/andrasbacsai/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/andrasbacsai/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/andrasbacsai/subscriptions",
-            "organizations_url": "https://api.github.com/users/andrasbacsai/orgs",
-            "repos_url": "https://api.github.com/users/andrasbacsai/repos",
-            "events_url": "https://api.github.com/users/andrasbacsai/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/andrasbacsai/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-        },
-        "node_id": "RE_kwDOE9dbMc4SX3MF",
-        "tag_name": "v4.0.0-beta.473",
-        "target_commitish": "v4.x",
-        "name": "v4.0.0-beta.473",
-        "draft": false,
-        "immutable": false,
-        "prerelease": false,
-        "created_at": "2026-04-13T09:26:15Z",
-        "updated_at": "2026-04-13T09:33:58Z",
-        "published_at": "2026-04-13T09:33:58Z",
-        "assets": [],
-        "tarball_url": "https://api.github.com/repos/coollabsio/coolify/tarball/v4.0.0-beta.473",
-        "zipball_url": "https://api.github.com/repos/coollabsio/coolify/zipball/v4.0.0-beta.473",
-        "body": "### Fixes\r\n- Fixed the upgrade modal to show the correct target version and cleared stale upgrade notifications when the instance was already up to date. (#7774, fixes #6039, #8707)\r\n- Fixed user deletion cleanup so team-owned Git app sources were handled safely, while instance-wide sources were preserved for the root team. (#9435, fixes #8172)\r\n- Fixed dashboard homepage add buttons so they remained visible in light mode. (#9456, fixes #9454)\r\n- Fixed port mapping validation to accept protocol suffixes like `/tcp`, `/udp`, `/sctp` and IP-bound mappings. (#9503, fixes #9501, #9504)\r\n\r\n### Improvements\r\n- Updated `phpseclib/phpseclib` to `3.0.51`. (#9500)\r\n- Updated `axios` to `1.15.0` for development dependencies. (#9515)\r\n- Updated `axios` to `1.15.0` in `coolify-realtime`. (#9516)\r\n\r\n## What's Changed (Github)\r\n* fix(ui): Initialize latestVersion in Upgrade component mount by @andrasbacsai in https://github.com/coollabsio/coolify/pull/7774\r\n* fix(user-deletion): safely clean up team-owned Git app sources by @andrasbacsai in https://github.com/coollabsio/coolify/pull/9435\r\n* fix(ui): dashboard homepage add buttons are invisible in light mode by @rosslh in https://github.com/coollabsio/coolify/pull/9456\r\n* fix(validation): allow protocol suffix and ip in port mappings (/tcp, /udp, /sctp) by @ShadowArcanist in https://github.com/coollabsio/coolify/pull/9503\r\n* build(deps): bump phpseclib/phpseclib from 3.0.50 to 3.0.51 by @dependabot[bot] in https://github.com/coollabsio/coolify/pull/9500\r\n* build(deps-dev): bump axios from 1.13.2 to 1.15.0 by @dependabot[bot] in https://github.com/coollabsio/coolify/pull/9515\r\n* build(deps): bump axios from 1.13.6 to 1.15.0 in /docker/coolify-realtime by @dependabot[bot] in https://github.com/coollabsio/coolify/pull/9516\r\n* v4.0.0-beta.473 by @andrasbacsai in https://github.com/coollabsio/coolify/pull/9521\r\n\r\n## New Contributors\r\n* @rosslh made their first contribution in https://github.com/coollabsio/coolify/pull/9456\r\n\r\n**Full Changelog**: https://github.com/coollabsio/coolify/compare/v4.0.0-beta.472...v4.0.0-beta.473",
-        "reactions": {
-            "url": "https://api.github.com/repos/coollabsio/coolify/releases/308245253/reactions",
-            "total_count": 11,
-            "+1": 11,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-        },
-        "mentions_count": 4
     }
 ]
