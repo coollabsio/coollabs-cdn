@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-15",
+  "updatedAt": "2026-09-21",
   "sources": {
     "repository": "coollabsio/coollabs-cdn",
     "landing": "coollabsio/coolify.io",
@@ -726,6 +726,16 @@
       }
     ],
     "small": [
+      {
+        "name": "GreenRobot",
+        "url": "https://github.com/greenrobotllc",
+        "description": "GreenRobot",
+        "tier": "small",
+        "_comment": "$40 sponsor for one month: 2026-09-21 to 2026-10-21",
+        "image": {
+          "url": "https://github.com/greenrobotllc.png"
+        }
+      },
       {
         "name": "DarkVPS",
         "url": "https://darkvps.pro",
