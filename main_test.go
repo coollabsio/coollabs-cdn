@@ -92,6 +92,76 @@ func TestJeanModelCatalogIncludesGpt6Astra(t *testing.T) {
 	t.Fatal("expected GPT 6 Astra in Jean model catalog")
 }
 
+func TestJeanModelCatalogIncludesGpt6SolAndLuna(t *testing.T) {
+	content, err := jsonFiles.ReadFile("json/jean/models.json")
+	if err != nil {
+		t.Fatal(err)
+	}
+
+	var catalog struct {
+		Backends struct {
+			Codex struct {
+				Models []struct {
+					ID    string `json:"id"`
+					Label string `json:"label"`
+				} `json:"models"`
+			} `json:"codex"`
+		} `json:"backends"`
+	}
+	if err := json.Unmarshal(content, &catalog); err != nil {
+		t.Fatal(err)
+	}
+
+	want := map[string]string{
+		"gpt-6-sol":  "GPT 6 Sol",
+		"gpt-6-luna": "GPT 6 Luna",
+	}
+	for _, model := range catalog.Backends.Codex.Models {
+		if want[model.ID] == model.Label {
+			delete(want, model.ID)
+		}
+	}
+	if len(want) != 0 {
+		t.Fatalf("missing GPT 6 models from Jean model catalog: %v", want)
+	}
+}
+
+func TestJeanModelCatalogEnablesFastModeForGpt6Models(t *testing.T) {
+	content, err := jsonFiles.ReadFile("json/jean/models.json")
+	if err != nil {
+		t.Fatal(err)
+	}
+
+	var catalog struct {
+		Backends struct {
+			Codex struct {
+				Models []struct {
+					ID           string `json:"id"`
+					FastID       string `json:"fast_id"`
+					SupportsFast bool   `json:"supports_fast"`
+				} `json:"models"`
+			} `json:"codex"`
+		} `json:"backends"`
+	}
+	if err := json.Unmarshal(content, &catalog); err != nil {
+		t.Fatal(err)
+	}
+
+	want := map[string]string{
+		"gpt-6-astra": "gpt-6-astra-fast",
+		"gpt-6-sol":   "gpt-6-sol-fast",
+		"gpt-6-luna":  "gpt-6-luna-fast",
+	}
+	for _, model := range catalog.Backends.Codex.Models {
+		if fastID, ok := want[model.ID]; ok && model.SupportsFast && model.FastID == fastID {
+			delete(want, model.ID)
+		}
+	}
+	if len(want) != 0 {
+		t.Fatalf("missing GPT 6 fast-mode metadata: %v", want)
+	}
+}
+
 func TestLoadJSONFilesIncludesCoolifyArtifacts(t *testing.T) {
 	files := make(map[string]*fileData)
 	etags := make(map[string]string)

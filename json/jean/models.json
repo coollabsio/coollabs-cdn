@@ -574,7 +574,7 @@
           "id": "gpt-6-astra",
           "label": "GPT 6 Astra",
           "recommended": true,
-          "supports_fast": false,
+          "supports_fast": true,
           "reasoning": {
             "type": "effort",
             "default": "medium",
@@ -610,7 +610,89 @@
                 "description": "Maximum reasoning with automatic task delegation"
               }
             ]
-          }
+          },
+          "fast_id": "gpt-6-astra-fast"
+        },
+        {
+          "id": "gpt-6-sol",
+          "label": "GPT 6 Sol",
+          "recommended": true,
+          "supports_fast": true,
+          "reasoning": {
+            "type": "effort",
+            "default": "medium",
+            "levels": [
+              {
+                "value": "low",
+                "label": "Low",
+                "description": "Fast responses with lighter reasoning"
+              },
+              {
+                "value": "medium",
+                "label": "Medium",
+                "description": "Balances speed and reasoning depth"
+              },
+              {
+                "value": "high",
+                "label": "High",
+                "description": "Greater reasoning depth for complex problems"
+              },
+              {
+                "value": "xhigh",
+                "label": "Extra high",
+                "description": "Extra high reasoning depth for complex problems"
+              },
+              {
+                "value": "max",
+                "label": "Max",
+                "description": "Maximum reasoning depth for the hardest problems"
+              },
+              {
+                "value": "ultra",
+                "label": "Ultra",
+                "description": "Maximum reasoning with automatic task delegation"
+              }
+            ]
+          },
+          "fast_id": "gpt-6-sol-fast"
+        },
+        {
+          "id": "gpt-6-luna",
+          "label": "GPT 6 Luna",
+          "recommended": true,
+          "supports_fast": true,
+          "reasoning": {
+            "type": "effort",
+            "default": "medium",
+            "levels": [
+              {
+                "value": "low",
+                "label": "Low",
+                "description": "Fast responses with lighter reasoning"
+              },
+              {
+                "value": "medium",
+                "label": "Medium",
+                "description": "Balances speed and reasoning depth"
+              },
+              {
+                "value": "high",
+                "label": "High",
+                "description": "Greater reasoning depth for complex problems"
+              },
+              {
+                "value": "xhigh",
+                "label": "Extra high",
+                "description": "Extra high reasoning depth for complex problems"
+              },
+              {
+                "value": "max",
+                "label": "Max",
+                "description": "Maximum reasoning depth for the hardest problems"
+              }
+            ]
+          },
+          "fast_id": "gpt-6-luna-fast"
         },
         {
           "id": "gpt-5.6-sol",
