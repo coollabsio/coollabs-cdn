@@ -40,6 +40,18 @@
         "tarball_url": "https://api.github.com/repos/coollabsio/coolify/tarball/v4.3.23",
         "zipball_url": "https://api.github.com/repos/coollabsio/coolify/zipball/v4.3.23",
         "body": "## Features\r\n- Added a read-only API endpoint to retrieve preview deployment runtime logs by application UUID and pull request ID, with line limits and optional timestamps. ([#11884](https://github.com/coollabsio/coolify/pull/11884))\r\n\r\n## Fixes\r\n- Fixed deployment status and metadata processing when remote command output contained leading or trailing whitespace.\r\n\r\n## What's Changed\r\n* feat(api): expose runtime logs for preview deployments by @andrasbacsai in https://github.com/coollabsio/coolify/pull/11884\r\n\r\n\r\n**Full Changelog**: https://github.com/coollabsio/coolify/compare/v4.3.22...v4.3.23",
+        "reactions": {
+            "url": "https://api.github.com/repos/coollabsio/coolify/releases/391501527/reactions",
+            "total_count": 6,
+            "+1": 1,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 5,
+            "eyes": 0
+        },
         "mentions_count": 1
     },
     {
@@ -83,6 +95,18 @@
         "tarball_url": "https://api.github.com/repos/coollabsio/coolify/tarball/v4.3.22",
         "zipball_url": "https://api.github.com/repos/coollabsio/coolify/zipball/v4.3.22",
         "body": "## Breaking Changes\r\n\r\n- Removed host-path configuration for persistent volumes from the UI and API. API requests that include `host_path` are now rejected.\r\n\r\n## Features\r\n\r\n- Added a pull request settings modal with refresh and deployment controls for preview deployments.\r\n- Added real-time Sentinel synchronization status across server and application views.\r\n- Added separate options to delete local and S3 archives when a volume backup schedule was removed.\r\n\r\n## Fixes\r\n\r\n- Generated separate Traefik rules for comma-separated Docker Compose preview domains, which fixed broken preview routing ([#11812](https://github.com/coollabsio/coolify/pull/11812), closed [#7915](https://github.com/coollabsio/coolify/issues/7915)).\r\n- Fell back to the system DNS resolver when configured resolvers returned no address records ([#11811](https://github.com/coollabsio/coolify/pull/11811), closed [#11810](https://github.com/coollabsio/coolify/issues/11810)).\r\n- Preserved whitespace in streamed command output, which prevented Docker Compose argument injection from corrupting Dockerfiles ([#11466](https://github.com/coollabsio/coolify/pull/11466), closed [#11386](https://github.com/coollabsio/coolify/issues/11386)).\r\n- Preserved pull request filters in deployment history and showed the active filter.\r\n- Redirected team switches to the dashboard to prevent invalid cross-team pages.\r\n\r\n## Improvements\r\n\r\n- Made scheduled tasks, database backups, volume backups, and Docker cleanups execute only once per occurrence across distributed schedulers.\r\n- Improved volume backup execution details and archive actions on mobile devices.\r\n- Simplified persistent storage controls and kept volume actions on one line.\r\n\r\n## What's Changed\r\n* fix(previews): split compose domains into Traefik labels by @andrasbacsai in https://github.com/coollabsio/coolify/pull/11812\r\n* fix(dns): fall back to system resolver by @andrasbacsai in https://github.com/coollabsio/coolify/pull/11811\r\n* fix(deployments): preserve whitespace in saved command output by @andrasbacsai in https://github.com/coollabsio/coolify/pull/11466\r\n* chore: merge main into next by @github-actions[bot] in https://github.com/coollabsio/coolify/pull/11866\r\n\r\n\r\n**Full Changelog**: https://github.com/coollabsio/coolify/compare/v4.3.21...v4.3.22",
+        "reactions": {
+            "url": "https://api.github.com/repos/coollabsio/coolify/releases/391440471/reactions",
+            "total_count": 1,
+            "+1": 1,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+        },
         "mentions_count": 1
     },
     {
