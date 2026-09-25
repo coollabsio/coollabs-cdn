@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-21",
+  "updatedAt": "2026-09-25",
   "sources": {
     "repository": "coollabsio/coollabs-cdn",
     "landing": "coollabsio/coolify.io",
@@ -726,6 +726,18 @@
       }
     ],
     "small": [
+      {
+        "name": "Serverside",
+        "url": "https://serverside.com/?utm_source=coolify.io",
+        "description": "Bare metal dedicated servers in the US and Europe",
+        "tier": "small",
+        "_comment": "$100 sponsor (small logo tier, $40-$199)",
+        "image": {
+          "key": "serverside.svg",
+          "path": "/sponsors/serverside.svg",
+          "url": "https://cdn.coollabs.io/sponsors/serverside.svg"
+        }
+      },
       {
         "name": "GreenRobot",
         "url": "https://github.com/greenrobotllc",
