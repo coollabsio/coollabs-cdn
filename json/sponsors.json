@@ -749,6 +749,16 @@
         }
       },
       {
+        "name": "baileyherbert",
+        "url": "https://github.com/baileyherbert",
+        "description": "baileyherbert",
+        "tier": "small",
+        "_comment": "$40 sponsor",
+        "image": {
+          "url": "https://github.com/baileyherbert.png"
+        }
+      },
+      {
         "name": "DarkVPS",
         "url": "https://darkvps.pro",
         "description": "DarkVPS",
@@ -773,16 +783,6 @@
         }
       },
       {
-        "name": "Onserva",
-        "url": "https://onserva.com/",
-        "description": "Server monitoring that speaks plain English",
-        "tier": "small",
-        "_comment": "$40 sponsor",
-        "image": {
-          "url": "https://onserva.com/icon.svg"
-        }
-      },
-      {
         "name": "Movavi",
         "url": "https://www.movavi.com/mac.html?utm_source=coolify.io",
         "description": "Movavi",
@@ -801,15 +801,6 @@
         "tier": "small",
         "image": {
           "url": "https://usefoil.com/favicon.svg"
-        }
-      },
-      {
-        "name": "LaunchFast Boilerplates",
-        "url": "https://www.launchfa.st/?utm_source=coolify.io",
-        "description": "LaunchFast Boilerplates",
-        "tier": "small",
-        "image": {
-          "url": "https://github.com/LaunchFast-Boilerplates.png"
         }
       },
       {
