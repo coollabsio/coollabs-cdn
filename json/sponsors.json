@@ -698,22 +698,6 @@
         }
       },
       {
-        "name": "PetroSky Cloud",
-        "url": "https://petrosky.io",
-        "description": "Open source cloud deployment solutions",
-        "tier": "big",
-        "image": {
-          "key": "petrosky.svg",
-          "path": "/sponsors/petrosky.svg",
-          "url": "https://cdn.coollabs.io/sponsors/petrosky.svg",
-          "docs": {
-            "key": "petrosky.png",
-            "path": "/docs-sponsors/petrosky.png",
-            "url": "https://cdn.coollabs.io/docs-sponsors/petrosky.png"
-          }
-        }
-      },
-      {
         "name": "QuickSrv",
         "url": "https://quicksrv.io/",
         "description": "Fast and reliable server hosting",
