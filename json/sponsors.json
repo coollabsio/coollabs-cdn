@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-25",
+  "updatedAt": "2026-10-09",
   "sources": {
     "repository": "coollabsio/coollabs-cdn",
     "landing": "coollabsio/coolify.io",
@@ -706,6 +706,18 @@
           "key": "quicksrv.svg",
           "path": "/sponsors/quicksrv.svg",
           "url": "https://cdn.coollabs.io/sponsors/quicksrv.svg"
+        }
+      },
+      {
+        "name": "NodePlus.ai",
+        "url": "https://nodeplus.ai/",
+        "description": "AI that reads every system your business runs on",
+        "tier": "big",
+        "_comment": "$200 sponsor",
+        "image": {
+          "key": "nodeplus.png",
+          "path": "/sponsors/nodeplus.png",
+          "url": "https://cdn.coollabs.io/sponsors/nodeplus.png"
         }
       }
     ],
