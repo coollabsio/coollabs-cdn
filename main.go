@@ -252,7 +252,9 @@ func handleRequest(w http.ResponseWriter, r *http.Request, baseFQDN string, file
 		w.Header().Set("Content-Type", contentType)
 	}
 
-	w.Header().Set("Cache-Control", "public, must-revalidate, max-age=600")
+	// No must-revalidate: it stops Cloudflare from serving stale copies, so every
+	// request at expiry queues on the edge (error 1200) while one goes to the origin.
+	w.Header().Set("Cache-Control", "public, max-age=600, stale-while-revalidate=600, stale-if-error=86400")
 
 	// Handle ETag caching manually for embedded files
 	etag := etags[r.URL.Path]
