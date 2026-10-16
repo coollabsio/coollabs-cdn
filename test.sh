@@ -100,10 +100,10 @@ else
     test_result "JSON endpoint has ETag header" "FAIL" "ETag present" "$etag"
 fi
 
-if [ "$cache_control" = "Cache-Control: public, max-age=600, stale-while-revalidate=600, stale-if-error=86400" ]; then
+if [ "$cache_control" = "Cache-Control: public, max-age=600, stale-while-revalidate=86400, stale-if-error=86400" ]; then
     test_result "JSON endpoint has correct Cache-Control" "PASS"
 else
-    test_result "JSON endpoint has correct Cache-Control" "FAIL" "public, max-age=600, stale-while-revalidate=600, stale-if-error=86400" "$cache_control"
+    test_result "JSON endpoint has correct Cache-Control" "FAIL" "public, max-age=600, stale-while-revalidate=86400, stale-if-error=86400" "$cache_control"
 fi
 
 if [ "$cors_origin" = "Access-Control-Allow-Origin: *" ]; then
