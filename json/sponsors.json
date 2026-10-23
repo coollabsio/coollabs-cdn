@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-09",
+  "updatedAt": "2026-10-23",
   "sources": {
     "repository": "coollabsio/coollabs-cdn",
     "landing": "coollabsio/coolify.io",
@@ -8,22 +8,6 @@
   },
   "tiers": {
     "huge": [
-      {
-        "name": "CubePath",
-        "url": "https://cubepath.com/coolify",
-        "description": "Premium dedicated servers and cloud VPS hosting",
-        "hugeImageStyle": "width: min(95%, 360px); height: auto; max-height: none;",
-        "tier": "huge",
-        "image": {
-          "key": "cubepath.png",
-          "path": "/sponsors/cubepath.png",
-          "url": "https://cdn.coollabs.io/sponsors/cubepath.png",
-          "docs": {
-            "path": "/docs-sponsors/cubepath.png",
-            "url": "https://cdn.coollabs.io/docs-sponsors/cubepath.png"
-          }
-        }
-      },
       {
         "name": "Context.dev",
         "url": "https://www.context.dev/",
@@ -698,17 +682,6 @@
         }
       },
       {
-        "name": "QuickSrv",
-        "url": "https://quicksrv.io/",
-        "description": "Fast and reliable server hosting",
-        "tier": "big",
-        "image": {
-          "key": "quicksrv.svg",
-          "path": "/sponsors/quicksrv.svg",
-          "url": "https://cdn.coollabs.io/sponsors/quicksrv.svg"
-        }
-      },
-      {
         "name": "NodePlus.ai",
         "url": "https://nodeplus.ai/",
         "description": "AI that reads every system your business runs on",
@@ -732,16 +705,6 @@
           "key": "serverside.svg",
           "path": "/sponsors/serverside.svg",
           "url": "https://cdn.coollabs.io/sponsors/serverside.svg"
-        }
-      },
-      {
-        "name": "GreenRobot",
-        "url": "https://github.com/greenrobotllc",
-        "description": "GreenRobot",
-        "tier": "small",
-        "_comment": "$40 sponsor for one month: 2026-09-21 to 2026-10-21",
-        "image": {
-          "url": "https://github.com/greenrobotllc.png"
         }
       },
       {
@@ -1101,17 +1064,6 @@
           "key": "arvensis.png",
           "path": "/sponsors/arvensis.png",
           "url": "https://cdn.coollabs.io/sponsors/arvensis.png"
-        }
-      },
-      {
-        "name": "Reshot",
-        "url": "https://www.reshot.ai/?utm_source=coolify.io",
-        "description": "Reshot",
-        "tier": "small",
-        "image": {
-          "key": "reshotai.png",
-          "path": "/sponsors/reshotai.png",
-          "url": "https://cdn.coollabs.io/sponsors/reshotai.png"
         }
       },
       {
