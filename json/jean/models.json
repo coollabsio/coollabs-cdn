@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-07T00:00:00Z",
+  "updated_at": "2026-10-27T00:00:00Z",
   "defaults": {
     "claude": "claude-opus-4-8[1m]",
     "codex": "gpt-5.5"
@@ -698,6 +698,49 @@
             ]
           },
           "fast_id": "gpt-6.1-sol-fast"
+        },
+        {
+          "id": "gpt-6.1-terra",
+          "label": "GPT 6.1 Terra",
+          "recommended": true,
+          "supports_fast": true,
+          "reasoning": {
+            "type": "effort",
+            "default": "medium",
+            "levels": [
+              {
+                "value": "low",
+                "label": "Low",
+                "description": "Fast responses with lighter reasoning"
+              },
+              {
+                "value": "medium",
+                "label": "Medium",
+                "description": "Balances speed and reasoning depth"
+              },
+              {
+                "value": "high",
+                "label": "High",
+                "description": "Greater reasoning depth for complex problems"
+              },
+              {
+                "value": "xhigh",
+                "label": "Extra high",
+                "description": "Extra high reasoning depth for complex problems"
+              },
+              {
+                "value": "max",
+                "label": "Max",
+                "description": "Maximum reasoning depth for the hardest problems"
+              },
+              {
+                "value": "ultra",
+                "label": "Ultra",
+                "description": "Maximum reasoning with automatic task delegation"
+              }
+            ]
+          },
+          "fast_id": "gpt-6.1-terra-fast"
         },
         {
           "id": "gpt-6-astra",
