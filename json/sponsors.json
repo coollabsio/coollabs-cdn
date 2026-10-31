@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-23",
+  "updatedAt": "2026-10-31",
   "sources": {
     "repository": "coollabsio/coollabs-cdn",
     "landing": "coollabsio/coolify.io",
@@ -1141,6 +1141,16 @@
           "key": "hosthavoc.png",
           "path": "/sponsors/hosthavoc.png",
           "url": "https://cdn.coollabs.io/sponsors/hosthavoc.png"
+        }
+      },
+      {
+        "name": "martiinii",
+        "url": "https://martiinii.dev",
+        "description": "martiinii",
+        "tier": "small",
+        "_comment": "$40 sponsor",
+        "image": {
+          "url": "https://github.com/martiinii.png"
         }
       }
     ]
