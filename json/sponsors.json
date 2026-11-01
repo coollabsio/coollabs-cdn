@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-01",
   "sources": {
     "repository": "coollabsio/coollabs-cdn",
     "landing": "coollabsio/coolify.io",
@@ -8,22 +8,6 @@
   },
   "tiers": {
     "huge": [
-      {
-        "name": "Context.dev",
-        "url": "https://www.context.dev/",
-        "description": "Web scraping API for AI agents",
-        "hugeImageStyle": "width: min(95%, 360px); height: auto; max-height: none;",
-        "tier": "huge",
-        "image": {
-          "key": "contextdev.png",
-          "path": "/sponsors/contextdev.png",
-          "url": "https://cdn.coollabs.io/sponsors/contextdev.png",
-          "docs": {
-            "path": "/docs-sponsors/contextdev.png",
-            "url": "https://cdn.coollabs.io/docs-sponsors/contextdev.png"
-          }
-        }
-      },
       {
         "name": "Ginernet",
         "url": "https://ginernet.com/",
