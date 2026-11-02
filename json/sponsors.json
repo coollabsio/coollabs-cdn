@@ -862,15 +862,6 @@
         }
       },
       {
-        "name": "OpenElements",
-        "url": "https://open-elements.com/?utm_source=coolify.io",
-        "description": "OpenElements",
-        "tier": "small",
-        "image": {
-          "url": "https://github.com/OpenElements.png"
-        }
-      },
-      {
         "name": "Monadical",
         "url": "https://monadical.com/?utm_source=coolify.io",
         "description": "Monadical",
