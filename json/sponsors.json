@@ -296,22 +296,6 @@
         }
       },
       {
-        "name": "Best Consultant",
-        "url": "https://bc.direct",
-        "description": "Your trusted technology consulting partner",
-        "tier": "big",
-        "image": {
-          "key": "bc.png",
-          "path": "/sponsors/bc.png",
-          "url": "https://cdn.coollabs.io/sponsors/bc.png",
-          "docs": {
-            "key": "bc.webp",
-            "path": "/docs-sponsors/bc.webp",
-            "url": "https://cdn.coollabs.io/docs-sponsors/bc.webp"
-          }
-        }
-      },
-      {
         "name": "ArcJet",
         "url": "https://arcjet.com",
         "description": "Advanced web security and performance solutions",
