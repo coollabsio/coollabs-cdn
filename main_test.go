@@ -36,6 +36,34 @@ func TestJeanModelCatalogIncludesFable51(t *testing.T) {
 	t.Fatal("expected Claude Fable 5.1 in Jean model catalog")
 }
 
+func TestJeanModelCatalogIncludesFable52(t *testing.T) {
+	content, err := jsonFiles.ReadFile("json/jean/models.json")
+	if err != nil {
+		t.Fatal(err)
+	}
+
+	var catalog struct {
+		Backends struct {
+			Claude struct {
+				Models []struct {
+					ID    string `json:"id"`
+					Label string `json:"label"`
+				} `json:"models"`
+			} `json:"claude"`
+		} `json:"backends"`
+	}
+	if err := json.Unmarshal(content, &catalog); err != nil {
+		t.Fatal(err)
+	}
+
+	for _, model := range catalog.Backends.Claude.Models {
+		if model.ID == "claude-fable-5-2" && model.Label == "Claude Fable 5.2" {
+			return
+		}
+	}
+	t.Fatal("expected Claude Fable 5.2 in Jean model catalog")
+}
+
 func TestJeanModelCatalogIncludesOpus55(t *testing.T) {
 	content, err := jsonFiles.ReadFile("json/jean/models.json")
 	if err != nil {
