@@ -623,21 +623,6 @@
         }
       },
       {
-        "name": "dataforest Cloud",
-        "url": "https://cloud.dataforest.net/en",
-        "description": "Deploy cloud servers as seeds independently in seconds. Enterprise hardware, premium network, 100% made in Germany.",
-        "tier": "big",
-        "image": {
-          "key": "dataforest.svg",
-          "path": "/sponsors/dataforest.svg",
-          "url": "https://cdn.coollabs.io/sponsors/dataforest.svg",
-          "docs": {
-            "path": "/docs-sponsors/dataforest.svg",
-            "url": "https://cdn.coollabs.io/docs-sponsors/dataforest.svg"
-          }
-        }
-      },
-      {
         "name": "ISHosting",
         "url": "https://ishosting.com/",
         "description": "Hosting and VPS solutions",
@@ -1122,6 +1107,16 @@
           "key": "bragly.png",
           "path": "/sponsors/bragly.png",
           "url": "https://cdn.coollabs.io/sponsors/bragly.png"
+        }
+      },
+      {
+        "name": "vaultbase.sh",
+        "url": "https://github.com/vaultbase-sh",
+        "description": "vaultbase.sh",
+        "tier": "small",
+        "_comment": "$40 sponsor (GitHub: vaultbase-sh)",
+        "image": {
+          "url": "https://github.com/vaultbase-sh.png"
         }
       }
     ]
