@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-03",
+  "updatedAt": "2026-11-16",
   "sources": {
     "repository": "coollabsio/coollabs-cdn",
     "landing": "coollabsio/coolify.io",
@@ -644,6 +644,18 @@
           "key": "nodeplus.png",
           "path": "/sponsors/nodeplus.png",
           "url": "https://cdn.coollabs.io/sponsors/nodeplus.png"
+        }
+      },
+      {
+        "name": "Groundmail",
+        "url": "https://groundmail.dev/lp/coolify/?utm_source=github&utm_medium=readme&utm_campaign=coollabsio-coolify",
+        "description": "Email API and SMTP relay for the apps you deploy",
+        "tier": "big",
+        "_comment": "$200 sponsor",
+        "image": {
+          "key": "groundmail.png",
+          "path": "/sponsors/groundmail.png",
+          "url": "https://cdn.coollabs.io/sponsors/groundmail.png"
         }
       }
     ],
