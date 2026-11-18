@@ -42,14 +42,14 @@
     "body": "\n## Fixed\n\n- Crashed the `Keys & Tokens` > `API Tokens` page with a 500 error for a token with scopes stored in an unexpected format\n- Failed connection to SFTP backup storages on an IPv6 address, and a connection error without the network reason\n  - The error now shows the network reason, for example `Connection refused` or `Connection timed out`\n\n",
     "reactions": {
       "url": "https://api.github.com/repos/coollabsio/coolify/releases/440503038/reactions",
-      "total_count": 20,
-      "+1": 11,
+      "total_count": 24,
+      "+1": 13,
       "-1": 0,
       "laugh": 0,
-      "hooray": 4,
+      "hooray": 5,
       "confused": 0,
       "heart": 0,
-      "rocket": 5,
+      "rocket": 6,
       "eyes": 0
     }
   },
