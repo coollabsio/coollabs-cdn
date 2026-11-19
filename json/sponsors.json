@@ -1130,6 +1130,16 @@
         "image": {
           "url": "https://github.com/vaultbase-sh.png"
         }
+      },
+      {
+        "name": "pckt.sh",
+        "url": "https://github.com/pckt-sh",
+        "description": "pckt.sh",
+        "tier": "small",
+        "_comment": "$40 sponsor (GitHub: pckt-sh)",
+        "image": {
+          "url": "https://github.com/pckt-sh.png"
+        }
       }
     ]
   }
