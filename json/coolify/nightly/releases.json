@@ -42,14 +42,14 @@
     "body": "> [!IMPORTANT]\r\n> This release fixes multiple critical CVEs in dependencies that Coolify uses. Update immediately.\r\n\r\n> [!NOTE]\r\n> These vulnerabilities are in **[PHP](https://www.php.net/ChangeLog-8.php#8.4.28)**, **[nginx](https://nginx.org/en/CHANGES)** and **[Node.js](https://github.com/nodejs/node/releases/tag/v24.22.3)** upstream, not in Coolify itself.\r\n\r\n## Security\r\n\r\n- Bound PHP-FPM in the `coolify` container to the loopback interface\r\n- Updated the dependencies of the Coolify image\r\n  - `serversideup/php` from `v5.0.3` to `v5.1.5`\r\n  - `PHP` from `8.4.27` to `8.4.28`\r\n  - `nginx` from `1.31.8` to `1.31.9`\r\n  - `Node.js` from `24.22.1` to `24.22.3`\r\n  - `cloudflared` from `2026.10.3` to `2026.11.1`\r\n  - `ext-uv` from `0.3.0` to `0.3.1`\r\n- Used the nginx defaults of the `serversideup/php` image in the `coolify` container\r\n  - PHP-FPM runs only existing PHP scripts outside `/storage`\r\n  - Responses carry the `X-Frame-Options`, `X-Content-Type-Options`, and `Referrer-Policy` headers\r\n  - Requests for dotfiles and for backup, config, log, SQL, and shell files return `403`\r\n",
     "reactions": {
       "url": "https://api.github.com/repos/coollabsio/coolify/releases/451538185/reactions",
-      "total_count": 24,
-      "+1": 7,
+      "total_count": 30,
+      "+1": 9,
       "-1": 0,
       "laugh": 0,
       "hooray": 0,
       "confused": 0,
-      "heart": 5,
-      "rocket": 12,
+      "heart": 6,
+      "rocket": 15,
       "eyes": 0
     }
   },
