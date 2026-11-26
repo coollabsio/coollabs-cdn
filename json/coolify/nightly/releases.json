@@ -39,7 +39,19 @@
     "assets": [],
     "tarball_url": "https://api.github.com/repos/coollabsio/coolify/tarball/v4.7.8",
     "zipball_url": "https://api.github.com/repos/coollabsio/coolify/zipball/v4.7.8",
-    "body": "\n## Fixed\n\n- Mounted an empty host folder instead of the existing Docker volume after the upgrade to v4.7.7, when the variable of a short-syntax Compose volume such as `${DATA}/config:/config` has a host path value\n  - A volume that the resource had before stays in use while its entry exists in `Persistent Storage`, and the deployment log shows a warning. The entry shows the host path that the variable gives. To use that path, copy the data and delete the entry\n\n"
+    "body": "\n## Fixed\n\n- Mounted an empty host folder instead of the existing Docker volume after the upgrade to v4.7.7, when the variable of a short-syntax Compose volume such as `${DATA}/config:/config` has a host path value\n  - A volume that the resource had before stays in use while its entry exists in `Persistent Storage`, and the deployment log shows a warning. The entry shows the host path that the variable gives. To use that path, copy the data and delete the entry\n\n",
+    "reactions": {
+      "url": "https://api.github.com/repos/coollabsio/coolify/releases/458178969/reactions",
+      "total_count": 1,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 1,
+      "eyes": 0
+    }
   },
   {
     "url": "https://api.github.com/repos/coollabsio/coolify/releases/458002031",
