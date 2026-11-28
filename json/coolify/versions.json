@@ -55,7 +55,7 @@
     },
     "nightly": {
         "coolify": {
-            "version": "4.8.0-alpha.0.20261128.1"
+            "version": "4.8.0-alpha.0.20261128.2"
         },
         "helper": {
             "version": "1.0.19"
